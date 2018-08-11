@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name" translatable="false">XFytTweaker</string>
+    <string name="app_settings">Application preferences</string>
+    <string name="misc_settings">Miscellaneous ON/OFF Settings</string>
+    <string name="nokill_title">Switch NoKill option on or off</string>
+    <string name="nokill_sum_on">ON: apps will NOT be killed on going into deep-sleep</string>
+    <string name="nokill_sum_off">OFF: Default behavior: All apps are killed on going into deep-sleep</string>
+    <string name="UsbDac_title">Switch UsbDac option on or off</string>
+    <string name="UsbDac_sum_on">ON: Control volume via android stock volume bar for dac support</string>
+    <string name="UsbDac_sum_off">OFF: Control volume via Joying volume bar</string>
+    <string name="noMcuErrors_title">Switch display yellow Mcu Errors overlay on or off (when applicable)</string>
+    <string name="noMcuErrors_sum_on">ON: The yellow overlay mcu errors overlay is not displayed</string>
+    <string name="noMcuErrors_sum_off">OFF: The yellow overlay mcu errors overlay is displayed</string>
+    <string name="skip_ch_four_title">Switch Channel 4 (alarm) option on or off</string>
+    <string name="skip_ch_four_sum_on">ON: Channel 4 will NOT be muted. This will enable voice feedback from Google Voice. It will also generate noise when no other channel is active.</string>
+    <string name="skip_ch_four_sum_off">OFF: channel 4 muted. No voice feedback from Google Voice. No noise either when no other channel is active.</string>
+    <string name="disable_btphonetop_title">Disable the Phone App from being Always On Top</string>
+    <string name="disable_btphonetop_sum_on">ON: Bluetooth Phone App will not force Always On Top during a call</string>
+    <string name="disable_btphonetop_sum_off">OFF: Bluetooth Phone App will always be on top during a call</string>
+    <string name="use_root_access_title">Use root access for the system call</string>
+    <string name="use_root_access_sum_on">ON: the system call is executed as root</string>
+    <string name="use_root_access_sum_off">OFF: the system call is executed as normal user</string>
+    <string name="show_cpu_temp_title">Option to display CPU temperature in the status bar</string>
+    <string name="show_cpu_temp_sum_on">ON: CPU temperature is displayed in the status bar</string>
+    <string name="show_cpu_temp_sum_off">OFF: CPU temperature is NOT displayed in status bar</string>
+
+    <string name="canbus_settings">Settings for users with CAN bus</string>
+    <string name="disable_airhelper_title">Disable canbus overlay on airconditioning change</string>
+    <string name="disable_airhelper_sum_on">ON: The Canbus overlay will not be displayed upon a change in the airconditioning.</string>
+    <string name="disable_airhelper_sum_off">OFF: The Canbus overlay will be displayed upon a change in the airconditioning.</string>
+    <string name="disable_doorhelper_title">Disable canbus overlay when a door is opened</string>
+    <string name="disable_doorhelper_sum_on">ON: When a door is open, the Canbus overlay will not be displayed.</string>
+    <string name="disable_doorhelper_sum_off">OFF: When a door is open, the Canbus overlay will be displayed.</string>
+
+
+    <string name="tap_delay_title">tap delay: milliseconds allowed between multiple taps (double-tap/triple-tap)</string> 
+    <string name="app_keymod_settings">Assign app or action to hardware buttons</string>
+    <string name="band_key_settings">Settings for the BAND (=Radio) key</string>
+    <string name="band_key_category">BAND Key Single tap</string>
+    <string name="band_key_call_title">BAND Key: Call method</string>
+    <string name="band_key_text_title">BAND Key: String to be used</string>
+    <string name="band_key_category_second">BAND Key Double tap</string>
+    <string name="band_key_call_title_second">BAND Key: Call method (double tap)</string>
+    <string name="band_key_text_title_second">BAND Key: String to be used (double tap)</string>
+    <string name="band_key_category_third">BAND Key Triple tap</string>
+    <string name="band_key_call_title_third">BAND Key: Call method (triple tap)</string>
+    <string name="band_key_text_title_third">BAND Key: String to be used (triple tap)</string>
+
+    <string name="dvd_key_settings">Settings for the DVD key</string>
+    <string name="dvd_key_category">DVD key Single tap</string>
+    <string name="dvd_key_call_title">DVD Key: Call method</string>
+    <string name="dvd_key_text_title">DVD Key: String to be used</string>
+    <string name="dvd_key_category_second">DVD key Double tap</string>
+    <string name="dvd_key_call_title_second">DVD Key: Call method (double tap)</string>
+    <string name="dvd_key_text_title_second">DVD Key: String to be used (double tap)</string>
+    <string name="dvd_key_category_third">DVD key Triple tap</string>
+    <string name="dvd_key_call_title_third">DVD Key: Call method (triple tap)</string>
+    <string name="dvd_key_text_title_third">DVD Key: String to be used (triple tap)</string>
+
+    <string name="eject_key_settings">Settings for the EJECT key</string>
+    <string name="eject_key_category">EJECT key Single tap</string>
+    <string name="eject_key_call_title">EJECT Key: Call method</string>
+    <string name="eject_key_text_title">EJECT Key: String to be used</string>
+    <string name="eject_key_category_second">EJECT key Double tap</string>
+    <string name="eject_key_call_title_second">EJECT Key: Call method (double tap)</string>
+    <string name="eject_key_text_title_second">EJECT Key: String to be used (double tap)</string>
+    <string name="eject_key_category_third">EJECT key Triple tap</string>
+    <string name="eject_key_call_title_third">EJECT Key: Call method (triple tap)</string>
+    <string name="eject_key_text_title_third">EJECT Key: String to be used (triple tap)</string>
+
+    <string name="eq_key_settings">Settings for the EQ key</string>
+    <string name="eq_key_category">EQ key Single tap</string>
+    <string name="eq_key_call_title">EQ Key: Call method</string>
+    <string name="eq_key_text_title">EQ Key: String to be used</string>
+    <string name="eq_key_category_second">EQ key Double tap</string>
+    <string name="eq_key_call_title_second">EQ Key: Call method (double tap)</string>
+    <string name="eq_key_text_title_second">EQ Key: String to be used (double tap)</string>
+    <string name="eq_key_category_third">EQ key Triple tap</string>
+    <string name="eq_key_call_title_third">EQ Key: Call method (triple tap)</string>
+    <string name="eq_key_text_title_third">EQ Key: String to be used (triple tap)</string>
+
+    <string name="media_key_settings">Settings for the MEDIA key</string>
+    <string name="media_key_category">MEDIA key Single tap</string>
+    <string name="media_key_call_title">MEDIA Key: Call method</string>
+    <string name="media_key_text_title">MEDIA Key: String to be used</string>
+    <string name="media_key_category_second">MEDIA key Double tap</string>
+    <string name="media_key_call_title_second">MEDIA Key: Call method (double tap)</string>
+    <string name="media_key_text_title_second">MEDIA Key: String to be used (double tap)</string>
+    <string name="media_key_category_third">MEDIA key Triple tap</string>
+    <string name="media_key_call_title_third">MEDIA Key: Call method (triple tap)</string>
+    <string name="media_key_text_title_third">MEDIA Key: String to be used (triple tap)</string>
+
+    <string name="navi_key_settings">Settings for the NAVI key</string>
+    <string name="navi_key_category">NAVI key Single tap</string>
+    <string name="navi_key_call_title">NAVI Key: Call method</string>
+    <string name="navi_key_text_title">NAVI Key: String to be used</string>
+    <string name="navi_key_category_second">NAVI key Double tap</string>
+    <string name="navi_key_call_title_second">NAVI Key: Call method (double tap)</string>
+    <string name="navi_key_text_title_second">NAVI Key: String to be used (double tap)</string>
+    <string name="navi_key_category_third">NAVI key Triple tap</string>
+    <string name="navi_key_call_title_third">NAVI Key: Call method (triple tap)</string>
+    <string name="navi_key_text_title_third">NAVI Key: String to be used ( tap)</string>
+
+    <string name="key_summary">Call method</string>
+    <string name="key_text_title">String to be used</string>
+
+    <string name="sw_keymod_settings">Assign app or action to steering wheel buttons</string>
+    <string name="bt_phone_key_settings">Settings for the BT_PHONE key</string>
+    <string name="bt_phone_key_category">BT_PHONE key Single tap</string>
+    <string name="bt_phone_key_call_title">BT_PHONE Key: Call method</string>
+    <string name="bt_phone_key_text_title">BT_PHONE Key: String to be used</string>
+    <string name="bt_phone_key_category_second">BT_PHONE key Double tap</string>
+    <string name="bt_phone_key_call_title_second">BT_PHONE Key: Call method (double tap)</string>
+    <string name="bt_phone_key_text_title_second">BT_PHONE Key: String to be used (double tap)</string>
+    <string name="bt_phone_key_category_third">BT_PHONE key Triplele tap</string>
+    <string name="bt_phone_key_call_title_third">BT_PHONE Key: Call method (triple tap)</string>
+    <string name="bt_phone_key_text_title_third">BT_PHONE Key: String to be used (triple tap)</string>
+
+    <string name="bt_hang_key_settings">Settings for the BT_HANG key</string>
+    <string name="bt_hang_key_call_title">BT_HANG Key: Call method</string>
+    <string name="bt_hang_key_text_title">BT_HANG Key: String to be used</string>
+
+    <string name="mode_src_key_settings">Settings for the MODE_SRC key</string>
+    <string name="mode_src_key_category">MODE_SRC key single tap</string>
+    <string name="mode_src_key_call_title">MODE_SRC Key: Call method</string>
+    <string name="mode_src_key_text_title">MODE_SRC Key: String to be used</string>
+    <string name="mode_src_key_category_second">MODE_SRC key double tap</string>
+    <string name="mode_src_key_call_title_second">MODE_SRC Key: Call method (double tap)</string>
+    <string name="mode_src_key_text_title_second">MODE_SRC Key: String to be used (double tap)</string>
+    <string name="mode_src_key_category_third">MODE_SRC key triple tap</string>
+    <string name="mode_src_key_call_title_third">MODE_SRC Key: Call method (triple tap)</string>
+    <string name="mode_src_key_text_title_third">MODE_SRC Key: String to be used (triple tap)</string>
+
+    <string name="acc_on_off_settings">Define apps or actions when the contact/unit is switched ON or OFF; or when coming out of resume.</string>
+    <string name="acc_on_settings">What to do when contact is switched on (ACC_ON)</string>
+    <string name="acc_on_call_title">ACC_ON: Call method</string>
+    <string name="acc_on_text_title">ACC_ON: String to be used</string>
+    <string name="acc_off_settings">What to do when contact is switched off (ACC_OFF)</string>
+    <string name="acc_off_call_title">ACC_OFF: Call method</string>
+    <string name="acc_off_text_title">ACC_OFF: String to be used</string>
+    <string name="resume_settings">What to do when the unit is coming out of resume</string>
+    <string name="resume_call_title">Resume: Call method</string>
+    <string name="resume_text_title">Resume: String to be used</string>
+
+    <string name="sys_keymod_settings">Assign app or action to HOME/MUTE hardware button (BE CAREFUL!); Requires soft reboot.</string>
+    <string name="home_key_capture_enabled_title">Enable HOME key capture</string>
+    <string name="home_key_capture_summary_enabled">Enabled: Assign app or other action to the HOME key.</string>
+    <string name="home_key_capture_summary_disabled">Disabled: Default HOME key activity.</string>
+    <string name="home_key_settings">Settings for the HOME key</string>
+    <string name="home_key_call_title">HOME Key: Call method</string>
+    <string name="home_key_text_title">HOME Key: String to be used</string>
+    <string name="back_key_capture_enabled_title">Enable BACK key capture</string>
+    <string name="back_key_capture_summary_enabled">Enabled: Be careful(!) as this overrides the default android onBackPressed() function for every (!) application</string>
+    <string name="back_key_capture_summary_disabled">Disabled: Default BACK key activity.</string>
+    <string name="back_key_settings">Settings for the BACK key</string>
+    <string name="back_key_call_title">BACK Key: Call method</string>
+    <string name="back_key_text_title">BACK Key: String to be used</string>
+    <string name="mute_key_capture_enabled_title">Enable MUTE key capture</string>
+    <string name="mute_key_capture_summary_enabled">Enabled: Assign an app or other action to the MUTE key.</string>
+    <string name="mute_key_capture_summary_disabled">Disabled: Default MUTE action: mutes 5 audio channels (4 Android and the radio audio).</string>
+    <string name="mute_key_settings">Settings for the MUTE key</string>
+    <string name="mute_key_call_title">MUTE Key: Call method</string>
+    <string name="mute_key_text_title">MUTE Key: String to be used</string>
+
+    <string name="about_info_screen">Information Screen</string>
+    <string name="donation">Donation</string>
+    <string name="paypal_donation_title">Donate via PayPal</string>
+    <string name="paypal_donation_summary">Not necessary as I will survice without it, but you could buy me a glass of wine</string>
+    <string name="paypal_url"  translatable="false">https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=HK2KGH6QVA992</string>
+    <string name="about">About</string>
+    <string name="xda_discussion_title">XDA Discussion thread</string>
+    <string name="xda_discussion_summary">Discuss or ask questions about this module on XDA</string>
+    <string name="github_title">Source code</string>
+    <string name="github_summary">Explore the source code of XFytTweaker on Github</string>
+
+    <string name="zygote_reboot_title">This change requires a soft reboot</string>
+    <string name="zygote_reboot_message">This change requires a soft reboot. Do you want to do that now?</string>
+    <string name="zygote_reboot_soft_reboot">Soft Reboot</string>
+    <string name="zygote_reboot_cancel">Cancel</string>
+</resources>

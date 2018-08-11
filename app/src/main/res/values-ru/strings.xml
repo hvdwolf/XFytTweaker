@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_settings">Настройки приложения</string>
+    <string name="misc_settings">Прочие настройки</string>
+    <string name="nokill_title">Опция NoKill (убийство приложений во сне) ВКЛ/ВЫКЛ</string>
+    <string name="nokill_sum_on">ВКЛ: Приложения НЕ будут убиты при переходе в глубокий сон</string>
+    <string name="nokill_sum_off">ВЫКЛ: Поведение по умолчанию: все приложения убиты при переходе в глубокий сон</string>
+    <string name="UsbDac_title">Опция USB Dac (ЦАП) ВКЛ/ВЫКЛ</string>
+    <string name="UsbDac_sum_on">ВКЛ: Контроль громкости через стоковую панель громкости андроид для поддержки DAC</string>
+    <string name="UsbDac_sum_off">ВЫКЛ: Контроль громкости через панель громкости JOYING</string>
+    <string name="noMcuErrors_title">Отображение желтой полосы сообщения Ошибка MCU ВКЛ/ВЫКЛ (если возможно)</string>
+    <string name="noMcuErrors_sum_on">ВКЛ: Наложение желтой полосы Ошибки MCU не отображается</string>
+    <string name="noMcuErrors_sum_off">ВЫКЛ: Наложение желтой полосы Ошибки MCU отображается</string>
+    <string name="skip_ch_four_title">Канал 4 (тревога) ВКЛ/ВЫКЛ</string>
+    <string name="skip_ch_four_sum_on">ВКЛ: Канал 4 НЕ будет отключен. Это позволит получать голосовую обратную связь от Google Voice. Он также будет генерировать шум, когда другой канал не активен.</string>
+    <string name="skip_ch_four_sum_off">ВЫКЛ: канал 4 отключен. Голосовой обратной связи от Google Voice не будет. Когда другой канал не активен, шума не будет.</string>
+    <string name="disable_btphonetop_title">Приложение «Телефон» поверх всех приложений</string>
+    <string name="disable_btphonetop_sum_on">ВКЛ: Приложение Bluetooth телефон не будет поверх приложений во время звонка</string>
+    <string name="disable_btphonetop_sum_off">ВЫКЛ: Приложение Bluetooth телефон всегда будет поверх приложений во время звонка</string>
+    <string name="use_root_access_title">Использовать root-доступ для системного вызова</string>
+    <string name="use_root_access_sum_on">ВКЛ: системный вызов использует root</string>
+    <string name="use_root_access_sum_off">ВЫКЛ: системный вызов выполняется через права обычного пользователя</string>
+    <string name="show_cpu_temp_title">Отображение температуры процессора в строке состояния</string>
+    <string name="show_cpu_temp_sum_on">ВКЛ: Температура процессора отображается в строке состояния</string>
+    <string name="show_cpu_temp_sum_off">ВЫКЛ: Температура процессора не отображается в строке состояния</string>
+
+    <string name="canbus_settings">Настройки для пользователей с CAN bus</string>
+    <string name="disable_airhelper_title">Наложение CAN bus при изменении кондиционера</string>
+    <string name="disable_airhelper_sum_on">ВКЛ: Наложение CAN bus не будет отображаться при изменении состояния.</string>
+    <string name="disable_airhelper_sum_off">ВЫКЛ: Наложение CAN bus будет отображаться после изменениz состояния.</string>
+    <string name="disable_doorhelper_title">Отключить наложение CAN bus при открытии двери</string>
+    <string name="disable_doorhelper_sum_on">ВКЛ: Когда дверь открыта, наложение CAN bus не будет отображаться.</string>
+    <string name="disable_doorhelper_sum_off">ВЫКЛ: Когда дверь открыта, наложение CAN bus будет отображаться.</string>
+
+    <string name="tap_delay_title">tap delay: milliseconds allowed between multiple taps (double-tap/triple-tap)</string> 
+    <string name="app_keymod_settings">Назначение приложения или действия на аппаратные кнопки</string>
+    <string name="band_key_settings">Настройки для кнопки Радио</string>
+    <string name="band_key_category">BAND Key Single tap</string>
+    <string name="band_key_call_title">Кнопка Радио: Метод вызова</string>
+    <string name="band_key_text_title">Кнопка Радио: Строка, которая будет использоваться</string>
+    <string name="band_key_category_second">BAND Key Double tap</string>
+    <string name="band_key_call_title_second">BAND Key: Call method (double tap)</string>
+    <string name="band_key_text_title_second">BAND Key: String to be used (double tap)</string>
+    <string name="band_key_category_third">BAND Key Triple tap</string>
+    <string name="band_key_call_title_third">BAND Key: Call method (triple tap)</string>
+    <string name="band_key_text_title_third">BAND Key: String to be used (triple tap)</string>
+
+    <string name="dvd_key_settings">Настройки для кнопки DVD</string>
+    <string name="dvd_key_category">DVD key Single tap</string>
+    <string name="dvd_key_call_title">Кнопка DVD: Метод вызова</string>
+    <string name="dvd_key_text_title">Кнопка DVD: Строка, которая будет использоваться</string>
+    <string name="dvd_key_category_second">DVD key Double tap</string>
+    <string name="dvd_key_call_title_second">DVD Key: Call method (double tap)</string>
+    <string name="dvd_key_text_title_second">DVD Key: String to be used (double tap)</string>
+    <string name="dvd_key_category_third">DVD key Triple tap</string>
+    <string name="dvd_key_call_title_third">DVD Key: Call method (triple tap)</string>
+    <string name="dvd_key_text_title_third">DVD Key: String to be used (triple tap)</string>
+
+    <string name="eject_key_settings">Настройки кнопки EJECT (извлечь диск)</string>
+    <string name="eject_key_category">EJECT key Single tap</string>
+    <string name="eject_key_call_title">Кнопка EJECT: Метод вызова</string>
+    <string name="eject_key_text_title">Кнопка EJECT: Строка, которая будет использоваться</string>
+    <string name="eject_key_category_second">EJECT key Single tap</string>
+    <string name="eject_key_call_title_second">Кнопка EJECT: Метод вызова (double tap)</string>
+    <string name="eject_key_text_title_second">Кнопка EJECT: Строка, которая будет использоваться (double tap)</string>
+    <string name="eject_key_category_third">EJECT key Single tap</string>
+    <string name="eject_key_call_title_third">Кнопка EJECT: Метод вызова (triple tap)</string>
+    <string name="eject_key_text_title_third">Кнопка EJECT: Строка, которая будет использоваться (triple tap)</string>
+
+    <string name="eq_key_settings">Накстройки кнопки эквалайзера</string>
+    <string name="eq_key_category">EQ key Single tap</string>
+    <string name="eq_key_call_title">Кнопка EQ: Метод вызова</string>
+    <string name="eq_key_text_title">Кнопка EQ: Строка, которая будет использоваться</string>
+    <string name="eq_key_category_second">EQ key Double tap</string>
+    <string name="eq_key_call_title_second">EQ Key: Call method (double tap)</string>
+    <string name="eq_key_text_title_second">EQ Key: String to be used (double tap)</string>
+    <string name="eq_key_category_third">EQ key Triple tap</string>
+    <string name="eq_key_call_title_third">EQ Key: Call method (triple tap)</string>
+    <string name="eq_key_text_title_third">EQ Key: String to be used (triple tap)</string>
+
+    <string name="media_key_settings">Настройки для кнопки MEDIA</string>
+    <string name="media_key_category">MEDIA key Single tap</string>
+    <string name="media_key_call_title">Кнопка MEDIA: Метод вызова</string>
+    <string name="media_key_text_title">Кнопка MEDIA: Строка, которая будет использоваться</string>
+    <string name="media_key_category_second">MEDIA key Double tap</string>
+    <string name="media_key_call_title_second">MEDIA Key: Call method (double tap)</string>
+    <string name="media_key_text_title_second">MEDIA Key: String to be used (double tap)</string>
+    <string name="media_key_category_third">MEDIA key Triple tap</string>
+    <string name="media_key_call_title_third">MEDIA Key: Call method (triple tap)</string>
+    <string name="media_key_text_title_third">MEDIA Key: String to be used (triple tap)</string>
+
+    <string name="navi_key_settings">Настройки для кнопки навигации</string>
+    <string name="navi_key_category">NAVI key Single tap</string>
+    <string name="navi_key_call_title">Кнопка NAVI: Метод вызова</string>
+    <string name="navi_key_text_title">Кнопка NAVI: Строка, которая будет использоваться</string>
+    <string name="navi_key_category_second">NAVI key Double tap</string>
+    <string name="navi_key_call_title_second">NAVI Key: Call method (double tap)</string>
+    <string name="navi_key_text_title_second">NAVI Key: String to be used (double tap)</string>
+    <string name="navi_key_category_third">NAVI key Triple tap</string>
+    <string name="navi_key_call_title_third">NAVI Key: Call method (triple tap)</string>
+    <string name="navi_key_text_title_third">NAVI Key: String to be used ( tap)</string>
+
+    <string name="key_summary">Метод вызова</string>
+    <string name="key_text_title">Строка, которая будет использоваться</string>
+
+    <string name="sw_keymod_settings">Назначить приложение или действие кнопкам на рулевом колесе</string>
+    <string name="bt_phone_key_settings">Настройки  кнопки BT звонка</string>
+    <string name="bt_phone_key_category">BT_PHONE key Single tap</string>
+    <string name="bt_phone_key_call_title">Кнопка BT звонка: Метод вызова</string>
+    <string name="bt_phone_key_text_title">Кнопка BT звонка: Строка, которая будет использоваться</string>
+    <string name="bt_phone_key_category_second">BT_PHONE key Double tap</string>
+    <string name="bt_phone_key_call_title_second">BT_PHONE Key: Call method (double tap)</string>
+    <string name="bt_phone_key_text_title_second">BT_PHONE Key: String to be used (double tap)</string>
+    <string name="bt_phone_key_category_third">BT_PHONE key Triplele tap</string>
+    <string name="bt_phone_key_call_title_third">BT_PHONE Key: Call method (triple tap)</string>
+    <string name="bt_phone_key_text_title_third">BT_PHONE Key: String to be used (triple tap)</string>
+
+    <string name="bt_hang_key_settings">Настройки кнопки завершения BT звонка</string>
+    <string name="bt_hang_key_call_title">Кнопка BT завершения: Метод вызова</string>
+    <string name="bt_hang_key_text_title">Кнопка BT завершения: Строка, которая будет использоваться</string>
+
+    <string name="mode_src_key_settings">Настройки кнопки SRC (Источники)</string>
+    <string name="mode_src_key_call_title">Кнопка SRC: Метод вызова</string>
+    <string name="mode_src_key_text_title">Кнопка SRC: Строка, которая будет использоваться</string>
+    <string name="mode_src_key_category_second">MODE_SRC key double tap</string>
+    <string name="mode_src_key_call_title_second">MODE_SRC Key: Call method (double tap)</string>
+    <string name="mode_src_key_text_title_second">MODE_SRC Key: String to be used (double tap)</string>
+    <string name="mode_src_key_category_third">MODE_SRC key triple tap</string>
+    <string name="mode_src_key_call_title_third">MODE_SRC Key: Call method (triple tap)</string>
+    <string name="mode_src_key_text_title_third">MODE_SRC Key: String to be used (triple tap)</string>
+
+    <string name="acc_on_off_settings">Определить приложения или действия, при появлении питания / устройство включается или выключается; или при пробуждении.</string>
+    <string name="acc_on_settings">Что делать при подаче питания (ACC_ВКЛ)</string>
+    <string name="acc_on_call_title">ACC_ВКЛ: Метод вызова</string>
+    <string name="acc_on_text_title">ACC_ВКЛ: Строка, которая будет использоваться</string>
+    <string name="acc_off_settings">Что делать, когда питание отключено (ACC_ВЫКЛ)</string>
+    <string name="acc_off_call_title">ACC_ВЫКЛ: Метод вызова</string>
+    <string name="acc_off_text_title">ACC_ВЫКЛ: Строка, которая будет использоваться</string>
+    <string name="resume_settings">Что делать при пробуждении устройства</string>
+    <string name="resume_call_title">Пробуждение: Метод вызова</string>
+    <string name="resume_text_title">Пробуждение: Строка, которая будет использоваться</string>
+
+    <string name="sys_keymod_settings">Назначьте приложение или действие для кнопки HOME / MUTE (БУДЬТЕ ОСТОРОЖНЫ!); Требуется мягкая перезагрузка.</string>
+    <string name="home_key_capture_enabled_title">Включить захват кнопки HOME</string>
+    <string name="home_key_capture_summary_enabled">Включено: Назначить приложение или другое действие кнопке HOME.</string>
+    <string name="home_key_capture_summary_disabled">Выключено: Действие кнопки HOME по умолчанию.</string>
+    <string name="home_key_settings">Настройки для кнопки HOME</string>
+    <string name="home_key_call_title">Кнопка HOME: Метод вызова</string>
+    <string name="home_key_text_title">Кнопка HOME: Строка, которая будет использоваться</string>
+    <string name="back_key_capture_enabled_title">Включить захват кнопки НАЗАД</string>
+    <string name="back_key_capture_summary_enabled">Включено: Будьте осторожны (!), Поскольку это отменяет стандартное действие кнопки назад по умолчанию для каждого приложения (!)</string>
+    <string name="back_key_capture_summary_disabled">Выключено: Действие кнопки НАЗАД по умолчанию.</string>
+    <string name="back_key_settings">Настройки для кнопки НАЗАД</string>
+    <string name="back_key_call_title">Кнопка НАЗАД: Метод вызова</string>
+    <string name="back_key_text_title">Кнопка НАЗАД: Строка, которая будет использоваться</string>
+    <string name="mute_key_capture_enabled_title">Включить захват MUTE (отключить звуки)</string>
+    <string name="mute_key_capture_summary_enabled">Включено: Назначьте приложение или другое действие клавише MUTE.</string>
+    <string name="mute_key_capture_summary_disabled">Выключено: Действие по умолчанию MUTE: отключает 5 аудиоканалов (4 Android и звуки радио).</string>
+    <string name="mute_key_settings">Настройки для клавиши MUTE</string>
+    <string name="mute_key_call_title">Кнопка MUTE: Метод вызова</string>
+    <string name="mute_key_text_title">Кнопка MUTE: Строка, которая будет использоваться</string>
+
+    <string name="about_info_screen">Экран информации</string>
+    <string name="donation">Пожертвование</string>
+    <string name="paypal_donation_title">Пожертвовать через PayPal</string>
+    <string name="paypal_donation_summary">Не обязательно, так как я выживу без него, но вы могли бы купить мне бокал вина</string>
+    <string name="about">О программе</string>
+    <string name="xda_discussion_title">Обсуждение темы на XDA</string>
+    <string name="xda_discussion_summary">Обсудите или задайте вопросы об этом модуле на XDA</string>
+    <string name="github_title">Исходный код</string>
+    <string name="github_summary">Исследуйте исходный код XFytTweaker на Github</string>
+
+    <string name="zygote_reboot_title">Это изменение требует перезагрузки</string>
+    <string name="zygote_reboot_message">Это изменение требует перезагрузки. Вы хотите сделать это сейчас?</string>
+    <string name="zygote_reboot_soft_reboot">Мягкая перезагрузка</string>
+    <string name="zygote_reboot_cancel">Отмена</string>
+</resources>

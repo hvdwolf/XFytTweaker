@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_settings">Applicatie voorkeuren</string>
+    <string name="misc_settings">Diverse AAN/UIT Instellingen</string>
+    <string name="nokill_title">Schakel NoKill optie in of uit</string>
+    <string name="nokill_sum_on">AAN: applicaties worden niet ge-killed bij het in deep-sleep gaan</string>
+    <string name="nokill_sum_off">UIT: Standaard gedrag: Alle apps worden ge-killed bij het in deep-sleep gaan</string>
+    <string name="UsbDac_title">Schakel UsbDac optie aan of uit</string>
+    <string name="UsbDac_sum_on">AAN: Volume controle via standaard Android voor UsbDac ondersteuning</string>
+    <string name="UsbDac_sum_off">UIT: Volume controle via Joying volume regeling</string>
+    <string name="noMcuErrors_title">Schakel tonen van gele MCU errors aan of uit (wanneer relevant)</string>
+    <string name="noMcuErrors_sum_on">AAN: gele mcu errors overlay wordt niet getoond</string>
+    <string name="noMcuErrors_sum_off">UIT: gele mcu errors overlay wordt getoond</string>
+    <string name="skip_ch_four_title">Schakel audio kanaal 4 (alarm) aan of uit</string>
+    <string name="skip_ch_four_sum_on">AAN: Kanaal 4 wordt niet op stil gezet. Dit maakt Google voice terugkoppeling mogelijk. Dit genereert ook ruis als geen ander kanaal actief is.</string>
+    <string name="skip_ch_four_sum_off">UIT: Kanaal 4 stil. Geen stem terugkoppeling van Google Voice. Maar ook geen ruis als geen enkel kanaal actief is.</string>
+    <string name="disable_btphonetop_title">Voorkom dat de BT telefoon app altijd op de voorgrond blijft tijdens bellen.</string>
+    <string name="disable_btphonetop_sum_on">AAN: Bluetooth Telefoon App blijft niet op de voorgrond tijdens bellen.</string>
+    <string name="disable_btphonetop_sum_off">UIT: Bluetooth Telefoon App blijft op de voorgrond tijdens bellen.</string>
+    <string name="use_root_access_title">Gebruik root toegang voor het systeem commando</string>
+    <string name="use_root_access_sum_on">AAN: het systeem commando wordt uitgevoerd als root</string>
+    <string name="use_root_access_sum_off">UIT: het systeem commando wordt uitgevoerd als gewone gebruiker</string>
+    <string name="show_cpu_temp_title">Optie om de CPU temperatuur te tonen in de statusbalk</string>
+    <string name="show_cpu_temp_sum_on">AAN: CPU temperatuur wordt getoond in de statusbalk</string>
+    <string name="show_cpu_temp_sum_off">UIT: CPU temperatuur wordt NIET getoond in de statusbalk</string>
+
+    <string name="canbus_settings">Instellingen voor gebruikers met een CAN bus</string>
+    <string name="disable_airhelper_title">Schakel Canbus overlay uit bij een aircondition wijziging</string>
+    <string name="disable_airhelper_sum_on">AAN: De Canbus overlay wordt niet getoond bij een wijziging aan de airconditioning.</string>
+    <string name="disable_airhelper_sum_off">UIT: De Canbus overlay wordt wel getoond bij een wijziging aan de airconditioning.</string>
+    <string name="disable_doorhelper_title">Schakel canbus overlay uit wanneer een deur open staat</string>
+    <string name="disable_doorhelper_sum_on">AAN: Bij een geopende deur wordt de Canbus overlay niet getoond.</string>
+    <string name="disable_doorhelper_sum_off">UIT: Bij een geopende deur wordt de Canbus overlay wel getoond.</string>
+
+    <string name="tap_delay_title">tap delay: toegestaan aantal milliseconden tussen de "multi-tikken" (twee keer tikken / drie keer tikken)</string>
+    <string name="app_keymod_settings">Koppel andere apk of actie aan een hardware knop</string>
+    <string name="band_key_settings">Instelling voor de BAND knop</string>
+    <string name="band_key_category">BAND Knop één keer tikken</string>
+    <string name="band_key_call_title">BAND Knop: Aanroep methode</string>
+    <string name="band_key_text_title">BAND Knop: Te gebruiken commandoregel</string>
+    <string name="band_key_category_second">BAND Knop twee keer tikken</string>
+    <string name="band_key_call_title_second">BAND Knop: Aanroep methode (twee keer tikken)</string>
+    <string name="band_key_text_title_second">BAND Knop: Te gebruiken commandoregel (twee keer tikken)</string>
+    <string name="band_key_category_third">BAND Knop drie keer tikken</string>
+    <string name="band_key_call_title_third">BAND Knop: Aanroep methode (drie keer tikken)</string>
+    <string name="band_key_text_title_third">BAND Knop: Te gebruiken commandoregel (drie keer tikken)</string>
+
+    <string name="dvd_key_settings">Instelling voor de DVD knop</string>
+    <string name="dvd_key_category">DVD Knop één keer tikken</string>
+    <string name="dvd_key_call_title">DVD Knop: Aanroep methode</string>
+    <string name="dvd_key_text_title">DVD Knop: Te gebruiken commandoregel</string>
+    <string name="dvd_key_category_second">DVD Knop twee keer tikken</string>
+    <string name="dvd_key_call_title_second">DVD Knop: Aanroep methode (twee keer tikken)</string>
+    <string name="dvd_key_text_title_second">DVD Knop: Te gebruiken commandoregel (twee keer tikken)</string>
+    <string name="dvd_key_category_third">DVD Knop drie keer tikken</string>
+    <string name="dvd_key_call_title_third">DVD Knop: Aanroep methode (drie keer tikken)</string>
+    <string name="dvd_key_text_title_third">DVD Knop: Te gebruiken commandoregel (drie keer tikken)</string>
+
+    <string name="eject_key_settings">Instelling voor de EJECT knop</string>
+    <string name="eject_key_category">EJECT Knop één keer tikken</string>
+    <string name="eject_key_call_title">EJECT Knop: Aanroep methode</string>
+    <string name="eject_key_text_title">EJECT Knop: Te gebruiken commandoregel</string>
+    <string name="eject_key_category_second">EJECT Knop twee keer tikken</string>
+    <string name="eject_key_call_title_second">EJECT Knop: Aanroep methode (twee keer tikken)</string>
+    <string name="eject_key_text_title_second">EJECT Knop: Te gebruiken commandoregel (twee keer tikken)</string>
+    <string name="eject_key_category_third">EJECT Knop drie keer tikken</string>
+    <string name="eject_key_call_title_third">EJECT Knop: Aanroep methode (drie keer tikken)</string>
+    <string name="eject_key_text_title_third">EJECT Knop: Te gebruiken commandoregel (drie keer tikken)</string>
+
+    <string name="eq_key_settings">Instelling voor de EQ knop</string>
+    <string name="eq_key_category">EQ knop één keer tikken</string>
+    <string name="eq_key_call_title">EQ Knop: Aanroep methode</string>
+    <string name="eq_key_text_title">EQ Knop: Te gebruiken commandoregel</string>
+    <string name="eq_key_category_second">EQ knop twee keer tikken</string>
+    <string name="eq_key_call_title_second">EQ Knop: Aanroep methode (twee keer tikken)</string>
+    <string name="eq_key_text_title_second">EQ Knop: Te gebruiken commandoregel (twee keer tikken)</string>
+    <string name="eq_key_category_third">EQ knop drie keer tikken</string>
+    <string name="eq_key_call_title_third">EQ Knop: Aanroep methode (drie keer tikken)</string>
+    <string name="eq_key_text_title_third">EQ Knop: Te gebruiken commandoregel (drie keer tikken)</string>
+
+    <string name="media_key_settings">Instelling voor de MEDIA knop</string>
+    <string name="media_key_category">MEDIA Knop één keer tikken</string>
+    <string name="media_key_call_title">MEDIA Knop: Aanroep methode</string>
+    <string name="media_key_text_title">MEDIA Knop: Te gebruiken commandoregel</string>
+    <string name="media_key_category_second">MEDIA Knop twee keer tikken</string>
+    <string name="media_key_call_title_second">MEDIA Knop: Aanroep methode (twee keer tikken)</string>
+    <string name="media_key_text_title_second">MEDIA Knop: Te gebruiken commandoregel (twee keer tikken)</string>
+    <string name="media_key_category_third">MEDIA Knop drie keer tikken</string>
+    <string name="media_key_call_title_third">MEDIA Knop: Aanroep methode (drie keer tikken)</string>
+    <string name="media_key_text_title_third">MEDIA Knop: Te gebruiken commandoregel (drie keer tikken)</string>
+
+    <string name="navi_key_settings">Instelling voor de NAVI knop</string>
+    <string name="navi_key_category">NAVI Knop één keer tikken</string>
+    <string name="navi_key_call_title">NAVI Knop: Aanroep methode</string>
+    <string name="navi_key_text_title">NAVI Knop: Te gebruiken commandoregel</string>
+    <string name="navi_key_category_second">NAVI Knop twee keer tikken</string>
+    <string name="navi_key_call_title_second">NAVI Knop: Aanroep methode (twee keer tikken)</string>
+    <string name="navi_key_text_title_second">NAVI Knop: Te gebruiken commandoregel (twee keer tikken)</string>
+    <string name="navi_key_category_third">NAVI Knop drie keer tikken</string>
+    <string name="navi_key_call_title_third">NAVI Knop: Aanroep methode (drie keer tikken)</string>
+    <string name="navi_key_text_title_third">NAVI Knop: Te gebruiken commandoregel (drie keer tikken)</string>
+
+    <string name="key_summary">Aanroep methode</string>
+    <string name="key_text_title">Te gebruiken commandoregel</string>
+
+    <string name="sw_keymod_settings">Koppel andere apk of actie aan een stuurwiel knop</string>
+    <string name="bt_phone_key_settings">Instelling voor de BT_PHONE knop</string>
+    <string name="bt_phone_key_category">BT_PHONE Knop één keer tikken</string>
+    <string name="bt_phone_key_call_title">BT_PHONE Knop: Aanroep methode</string>
+    <string name="bt_phone_key_text_title">BT_PHONE Knop: Te gebruiken commandoregel</string>
+    <string name="bt_phone_key_category_second">BT_PHONE Knop twee keer tikken</string>
+    <string name="bt_phone_key_call_title_second">BT_PHONE Knop: Aanroep methode (twee keer tikken)</string>
+    <string name="bt_phone_key_text_title_second">BT_PHONE Knop: Te gebruiken commandoregel (twee keer tikken)</string>
+    <string name="bt_phone_key_category_third">BT_PHONE key Triplele tap</string>
+    <string name="bt_phone_key_call_title_third">BT_PHONE Knop: Aanroep methode (drie keer tikken)</string>
+    <string name="bt_phone_key_text_title_third">BT_PHONE Knop: Te gebruiken commandoregel (drie keer tikken)</string>
+
+    <string name="bt_hang_key_settings">Settings for the BT_HANG key</string>
+    <string name="bt_hang_key_call_title">BT_HANG Knop: Aanroep methode</string>
+    <string name="bt_hang_key_text_title">BT_HANG Knop: Te gebruiken commandoregel</string>
+
+    <string name="mode_src_key_settings">Instelling voor de MODE_SRC knop</string>
+    <string name="mode_src_key_call_title">MODE_SRC Knop: Aanroep methode</string>
+    <string name="mode_src_key_text_title">MODE_SRC Knop: Te gebruiken commandoregel</string>
+    <string name="mode_src_key_category_second">MODE_SRC key twee keer tikken</string>
+    <string name="mode_src_key_call_title_second">MODE_SRC Knop: Aanroep methode (twee keer tikken)</string>
+    <string name="mode_src_key_text_title_second">MODE_SRC Knop: Te gebruiken commandoregel (twee keer tikken)</string>
+    <string name="mode_src_key_category_third">MODE_SRC key drie keer tikken</string>
+    <string name="mode_src_key_call_title_third">MODE_SRC Knop: Aanroep methode (drie keer tikken)</string>
+    <string name="mode_src_key_text_title_third">MODE_SRC Knop: Te gebruiken commandoregel (drie keer tikken)</string>
+
+    <string name="acc_on_off_settings">Definieer apks of acties wanneer het contact AAN of UIT geschakeld wordt; of uit sluimer toestand komend.</string>
+    <string name="acc_on_settings">Wat doen als contact wordt ingeschakeld (ACC_ON)</string>
+    <string name="acc_on_call_title">ACC_AAN: Aanroep methode</string>
+    <string name="acc_on_text_title">ACC_AAN: Te gebruiken commandoregel</string>
+    <string name="acc_off_settings">Wat doen als contact wordt uitgeschakeld (ACC_OFF)</string>
+    <string name="acc_off_call_title">ACC_UIT: Aanroep methode</string>
+    <string name="acc_off_text_title">ACC_UIT: Te gebruiken commandoregel</string>
+    <string name="resume_settings">Wat te doen als de unit uit sluimer stand komt</string>
+    <string name="resume_call_title">Resume: Aanroep methode</string>
+    <string name="resume_text_title">Resume: Te gebruiken commandoregel</string>
+
+    <string name="sys_keymod_settings">Definieer apks of acties aan de HOME/MUTE hardware knop (Wees voorzichtig!); Vereist soft reboot.</string>
+    <string name="home_key_capture_enabled_title">Afvangen HOME knop functie</string>
+    <string name="home_key_capture_summary_enabled">Geactiveerd: Ken apk of andere actie toe aan de HOME knop.</string>
+    <string name="home_key_capture_summary_disabled">Gedeactiveerd: Standaard HOME knop activiteit.</string>
+    <string name="home_key_settings">Instelling voor de HOME knop</string>
+    <string name="home_key_call_title">HOME Knop: Aanroep methode</string>
+    <string name="home_key_text_title">HOME Knop: Te gebruiken commandoregel</string>
+    <string name="back_key_capture_enabled_title">Afvangen BACK knop functie</string>
+    <string name="back_key_capture_summary_enabled">Geactiveerd: Be careful(!) as this overrides the default android onBackPressed() function for every (!) application</string>
+    <string name="back_key_capture_summary_disabled">Gedeactiveerd: Standaard BACK knop activiteit.</string>
+    <string name="back_key_settings">Instelling voor de BACK knop</string>
+    <string name="back_key_call_title">BACK Knop: Aanroep methode</string>
+    <string name="back_key_text_title">BACK Knop: Te gebruiken commandoregel</string>
+    <string name="mute_key_capture_enabled_title">Afvangen MUTE knop functie</string>
+    <string name="mute_key_capture_summary_enabled">Geactiveerd: Ken apk of andere actie toe aan de MUTE knop.</string>
+    <string name="mute_key_capture_summary_disabled">Gedeactiveerd: Standaard MUTE actie: dempen van 5 audio kanalen (4 Android en de radio audio).</string>
+    <string name="mute_key_settings">Instelling voor de MUTE knop</string>
+    <string name="mute_key_call_title">MUTE Knop: Aanroep methode</string>
+    <string name="mute_key_text_title">MUTE Knop: Te gebruiken commandoregel</string>
+
+    <string name="about_info_screen">Informatie Scherm</string>
+    <string name="donation">Doneren</string>
+    <string name="paypal_donation_title">Doneer via PayPal</string>
+    <string name="paypal_donation_summary">Niet nodig omdat ik zonder ook wel overleef, maar je kunt een glas wijn voor me kopen</string>
+    <string name="about">Over</string>
+    <string name="xda_discussion_title">XDA Discussie thread</string>
+    <string name="xda_discussion_summary">Discussieer of stel vragen over deze module op XDA</string>
+    <string name="github_title">Bron code</string>
+    <string name="github_summary">Bekijk de bron code van de XFytTweaker op Github</string>
+
+    <string name="zygote_reboot_title">Deze wijziging vereist een grafische herstart</string>
+    <string name="zygote_reboot_message">Deze wijziging vereist een herstart van de grafische schil. Wilt u dat nu doen?</string>
+    <string name="zygote_reboot_soft_reboot">Grafische herstart</string>
+<string name="zygote_reboot_cancel">Annuleren</string>
+</resources>

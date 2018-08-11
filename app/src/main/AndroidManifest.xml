@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="org.hvdw.xfyttweaker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true" />
+        <meta-data
+            android:name="xposeddescription"
+            android:value="SofiaServer mod; Captures the hardware buttons from the unit to reprogram them; includes NoKill" />
+        <meta-data
+            android:name="xposedminversion"
+            android:value="53" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="de.robv.android.xposed.category.MODULE_SETTINGS" />
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+            android:name=".SettingsActivityAlias"
+            android:label="@string/app_name"
+            android:enabled="true"
+            android:targetActivity=".SettingsActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <provider
+            android:name=".MyPreferenceProvider"
+            android:authorities="org.hvdw.xfyttweaker.preferences.provider"
+            android:exported="true"/>
+    </application>
+
+</manifest>

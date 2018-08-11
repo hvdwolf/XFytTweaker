@@ -1,0 +1,171 @@
+<resources>
+    <string name="app_settings">Preferencias de la aplicación</string>
+    <string name="misc_settings">Otras Encender/Desconectar configuraciones</string>
+    <string name="nokill_title">Activar o desactivar la opción NoKill</string>
+    <string name="nokill_sum_on">ON: las aplicaciones NO se matarán al entrar en modo de sueño profundo</string>
+    <string name="nokill_sum_off">OFF: : Comportamiento predeterminado: todas las aplicaciones se matarán al entrar en modo de sueño profundo</string>
+    <string name="UsbDac_title">Activar o desactivar la opción UsbDac</string>
+    <string name="UsbDac_sum_on">ON: Controlar el volumen mediante la barra de volumen estándar de android con soporte dac</string>
+    <string name="UsbDac_sum_off">OFF: Controlar el volumen mediante la barra de volumen de Joying</string>
+    <string name="noMcuErrors_title">Activar o desactivar el cartel amarillo de errores de Mcu (si se aplica)</string>
+    <string name="noMcuErrors_sum_on">ON: El cartel amarillo de errores de mcu no se mostrará</string>
+    <string name="noMcuErrors_sum_off">OFF: El cartel amarillo de errores de mcu si se mostrará</string>
+    <string name="skip_ch_four_title">Activar o desactivar Canal 4 (alarma)</string>
+    <string name="skip_ch_four_sum_on">ON: el canal 4 NO se silenciará. Esto permitirá escuchar las respuestas a los comandos de voz de Google Voice. También generará ruidos cuando no haya otro canal activo.</string>
+    <string name="skip_ch_four_sum_off">OFF: canal 4 silenciado. No se escucharán las respuestas a los comandos de voz de Google Voice. Tampoco habrá ruido cuando ningún otro canal esté activo.</string>
+    <string name="disable_btphonetop_title">Desactivar que la App del teléfono esté siempre en primer plano</string>
+    <string name="disable_btphonetop_sum_on">ON: La App de teléfono Bluetooth no estará forzada en primer plano durante una llamada</string>
+    <string name="disable_btphonetop_sum_off">OFF: La App de teléfono Bluetooth estará siempre en primer plano durante una llamada</string>
+    <string name="use_root_access_title">Usar acceso root para la llamada al sistema</string>
+    <string name="use_root_access_sum_on">ON: la llamada al sistema se ejecuta como root</string>
+    <string name="use_root_access_sum_off">OFF: la llamada al sistema se ejecuta como el usuario normal</string>
+    <string name="show_cpu_temp_title">Opción para mostrar la temperatura de la CPU en la barra de estado</string>
+    <string name="show_cpu_temp_sum_on">ON: La temperatura de la CPU se muestra en la barra de estado</string>
+    <string name="show_cpu_temp_sum_off">OFF: La temperatura de la CPU NO se mostrará en la barra de estado</string>
+
+    <string name="canbus_settings">Ajustes para usuarios con CAN Bus</string>
+    <string name="disable_airhelper_title">Desactivar el cartel Canbus cuando haya un cambio en el climatizador</string>
+    <string name="disable_airhelper_sum_on">ON: El cartel Canbus no se mostrará cuando haya un cambio en el climatizador.</string>
+    <string name="disable_airhelper_sum_off">OFF: El cartel Canbus se mostrará cuando haya un cambio en el climatizador.</string>
+    <string name="disable_doorhelper_title">Desactivar el cartel Canbus cuando se abra una puerta</string>
+    <string name="disable_doorhelper_sum_on">ON: Cuando se abra una puerta, el cartel Canbus no se mostrará.</string>
+    <string name="disable_doorhelper_sum_off">OFF: Cuando se abra una puerta, el cartel Canbus se mostrará.</string>
+
+    <string name="tap_delay_title">tap delay: milliseconds allowed between multiple taps (double-tap/triple-tap)</string> 
+    <string name="app_keymod_settings">Asignar app o acción a los botones físicos</string>
+    <string name="band_key_settings">Ajustes del botón BAND</string>
+    <string name="band_key_category">Botón BAND Single tap</string>
+    <string name="band_key_call_title">Botón BAND: Método de llamada (single tap)</string>
+    <string name="band_key_text_title">Botón BAND: Cadena a usar (single tap)</string>
+    <string name="band_key_category_second">BAND Key Double tap</string>
+    <string name="band_key_call_title_second">Botón BAND: Método de llamada (double tap)</string>
+    <string name="band_key_text_title_second">Botón BAND: Cadena a usar (double tap)</string>
+    <string name="band_key_category_third">BAND Key Triple tap</string>
+    <string name="band_key_call_title_third">Botón BAND: Método de llamada (triple tap)</string>
+    <string name="band_key_text_title_third">Botón BAND: Cadena a usar (triple tap)</string>
+
+    <string name="dvd_key_settings">Ajustes del botón DVD</string>
+    <string name="dvd_key_category">Botón DVD Single tap</string>
+    <string name="dvd_key_call_title">Botón DVD: Método de llamada</string>
+    <string name="dvd_key_text_title">Botón DVD: Cadena a usar</string>
+    <string name="dvd_key_category_second">DVD key Double tap</string>
+    <string name="dvd_key_call_title_second">Botón DVD: Método de llamada (double tap)</string>
+    <string name="dvd_key_text_title_second">Botón DVD: Cadena a usar (double tap)</string>
+    <string name="dvd_key_category_third">DVD key Triple tap</string>
+    <string name="dvd_key_call_title_third">Botón DVD: Método de llamada (triple tap)</string>
+    <string name="dvd_key_text_title_third">Botón DVD: Cadena a usar (triple tap)</string>
+
+    <string name="eject_key_settings">Ajustes del botón EJECT</string>
+    <string name="eject_key_category">Botón EJECT Single tap</string>
+    <string name="eject_key_call_title">Botón EJECT: Método de llamada</string>
+    <string name="eject_key_text_title">Botón EJECT: Cadena a usar</string>
+    <string name="eject_key_category_second">Botón EJECT Double tap</string>
+    <string name="eject_key_call_title_second">Botón EJECT: Método de llamada (double tap)</string>
+    <string name="eject_key_text_title_second">Botón EJECT: Cadena a usar (double tap)</string>
+    <string name="eject_key_category_third">Botón EJECT Triple tap</string>
+    <string name="eject_key_call_title_third">Botón EJECT: Método de llamada (triple tap)</string>
+    <string name="eject_key_text_title_third">Botón EJECT: Cadena a usar (triple tap)</string>
+
+    <string name="eq_key_settings">Ajustes del botón EQ</string>
+    <string name="eq_key_category">EQ key Single tap</string>
+    <string name="eq_key_call_title">Botón EQ: Método de llamada</string>
+    <string name="eq_key_text_title">Botón EQ: Cadena a usar</string>
+    <string name="eq_key_category_second">EQ key Double tap</string>
+    <string name="eq_key_call_title_second">EQ Key: Call method (double tap)</string>
+    <string name="eq_key_text_title_second">EQ Key: String to be used (double tap)</string>
+    <string name="eq_key_category_third">EQ key Triple tap</string>
+    <string name="eq_key_call_title_third">EQ Key: Call method (triple tap)</string>
+    <string name="eq_key_text_title_third">EQ Key: String to be used (triple tap)</string>
+
+    <string name="media_key_settings">Ajustes del botón MEDIA</string>
+    <string name="media_key_category">MEDIA key Single tap</string>
+    <string name="media_key_call_title">Botón MEDIA: Método de llamada</string>
+    <string name="media_key_text_title">Botón MEDIA: Cadena a usar</string>
+    <string name="media_key_category_second">MEDIA key Double tap</string>
+    <string name="media_key_call_title_second">MEDIA Key: Call method (double tap)</string>
+    <string name="media_key_text_title_second">MEDIA Key: String to be used (double tap)</string>
+    <string name="media_key_category_third">MEDIA key Triple tap</string>
+    <string name="media_key_call_title_third">MEDIA Key: Call method (triple tap)</string>
+    <string name="media_key_text_title_third">MEDIA Key: String to be used (triple tap)</string>
+
+    <string name="navi_key_settings">Ajustes del botón NAVI</string>
+    <string name="navi_key_category">NAVI key Single tap</string>
+    <string name="navi_key_call_title">Botón NAVI: Método de llamada</string>
+    <string name="navi_key_text_title">Botón NAVI: Cadena a usar</string>
+    <string name="navi_key_category_second">NAVI key Double tap</string>
+    <string name="navi_key_call_title_second">NAVI Key: Call method (double tap)</string>
+    <string name="navi_key_text_title_second">NAVI Key: String to be used (double tap)</string>
+    <string name="navi_key_category_third">NAVI key Triple tap</string>
+    <string name="navi_key_call_title_third">NAVI Key: Call method (triple tap)</string>
+    <string name="navi_key_text_title_third">NAVI Key: String to be used ( tap)</string>
+
+    <string name="key_summary">Método de llamada</string>
+    <string name="key_text_title">Cadena a usar</string>
+
+    <string name="sw_keymod_settings">Asignar app o acción a los botones del volante</string>
+    <string name="bt_phone_key_settings">Ajustes del botón BT_PHONE</string>
+    <string name="bt_phone_key_category">BT_PHONE key Single tap</string>
+    <string name="bt_phone_key_call_title">Botón BT_PHONE: Método de llamada</string>
+    <string name="bt_phone_key_text_title">Botón BT_PHONE: Cadena a usar</string>
+    <string name="bt_phone_key_category_second">BT_PHONE key Double tap</string>
+    <string name="bt_phone_key_call_title_second">BT_PHONE Key: Call method (double tap)</string>
+    <string name="bt_phone_key_text_title_second">BT_PHONE Key: String to be used (double tap)</string>
+    <string name="bt_phone_key_category_third">BT_PHONE key Triplele tap</string>
+    <string name="bt_phone_key_call_title_third">BT_PHONE Key: Call method (triple tap)</string>
+    <string name="bt_phone_key_text_title_third">BT_PHONE Key: String to be used (triple tap)</string>
+
+    <string name="bt_hang_key_settings">Ajustes del botón BT_HANG</string>
+    <string name="bt_hang_key_call_title">Botón BT_HANG: Método de llamada</string>
+    <string name="bt_hang_key_text_title">Botón BT_HANG: Cadena a usar</string>
+
+    <string name="mode_src_key_settings">Ajustes del botón MODE_SRC</string>
+    <string name="mode_src_key_category">MODE_SRC key single tap</string>
+    <string name="mode_src_key_call_title">Botón MODE_SRC: Método de llamada</string>
+    <string name="mode_src_key_text_title">Botón MODE_SRC: Cadena a usar</string>
+
+    <string name="acc_on_off_settings">Asignar app o acción cuando el contacto/la unidad se encienda o se apague; o al volver de la suspensión.</string>
+    <string name="acc_on_settings">Qué hacer cuando se enciende el contacto (ACC_ON)</string>
+    <string name="acc_on_call_title">ACC_ON: Método de llamada</string>
+    <string name="acc_on_text_title">ACC_ON: Cadena a usar</string>
+    <string name="acc_off_settings">Qué hacer cuando se apaga el contacto (ACC_OFF)</string>
+    <string name="acc_off_call_title">ACC_OFF: Método de llamada</string>
+    <string name="acc_off_text_title">ACC_OFF: Cadena a usar</string>
+    <string name="resume_settings">Qué hacer cuando la unidad vuelva de suspensión</string>
+    <string name="resume_call_title">Suspensión: Método de llamada</string>
+    <string name="resume_text_title">Suspensión: Cadena a usar</string>
+
+    <string name="sys_keymod_settings">Asignar app o acción al botón HOME/MUTE (¡TEN CUIDADO!); Requiere un reinicio suave.</string>
+    <string name="home_key_capture_enabled_title">Activar la captura del botón HOME</string>
+    <string name="home_key_capture_summary_enabled">Activado: Asignar app u otra acción al botón HOME.</string>
+    <string name="home_key_capture_summary_disabled">Desactivado: Comportamiento por defecto del botón HOME.</string>
+    <string name="home_key_settings">Ajustes del botón HOME</string>
+    <string name="home_key_call_title">Botón HOME: Método de llamada</string>
+    <string name="home_key_text_title">Botón HOME: Cadena a usar</string>
+    <string name="back_key_capture_enabled_title">Activar la captura del botón BACK</string>
+    <string name="back_key_capture_summary_enabled">Activado: Ten cuidado(!) ya que esto anula la función onBackPressed() de android para todas (!) las aplicaciones</string>
+    <string name="back_key_capture_summary_disabled">Desactivado: Comportamiento por defecto del botón BACK.</string>
+    <string name="back_key_settings">Ajustes del botón BACK</string>
+    <string name="back_key_call_title">Botón BACK: Método de llamada</string>
+    <string name="back_key_text_title">Botón BACK: Cadena a usar</string>
+    <string name="mute_key_capture_enabled_title">Activar la captura del botón MUTE</string>
+    <string name="mute_key_capture_summary_enabled">Activado: Asignar app u otra acción al botón MUTE.</string>
+    <string name="mute_key_capture_summary_disabled">Desactivado: Comportamiento por defecto del botón MUTE: silencia los 5 canales de sonido (4 de Android y el sonido de la radio).</string>
+    <string name="mute_key_settings">Ajustes para el botón MUTE</string>
+    <string name="mute_key_call_title">Botón MUTE: Método de llamada</string>
+    <string name="mute_key_text_title">Botón MUTE: Cadena a usar</string>
+
+    <string name="about_info_screen">Pantalla de información</string>
+    <string name="donation">Donaciones</string>
+    <string name="paypal_donation_title">Donar via PayPal</string>
+    <string name="paypal_donation_summary">No es necesario ya que puedo vivir sin ello, pero puedes pagarme un vaso de vino</string>
+    <string name="about">Acerca de</string>
+    <string name="xda_discussion_title">Hilo de debate en XDA</string>
+    <string name="xda_discussion_summary">Debate o haz preguntas acerca de éste módulo en XDA</string>
+    <string name="github_title">Código fuente</string>
+    <string name="github_summary">Explora el código fuente de XFytTweaker en Github</string>
+
+    <string name="zygote_reboot_title">Este cambio necesita de un reinicio suave</string>
+    <string name="zygote_reboot_message">Este cambio necesita de un reinicio suave. ¿Quieres reiniciar ahora?</string>
+    <string name="zygote_reboot_soft_reboot">Reinicio Suave</string>
+    <string name="zygote_reboot_cancel">Cancelar</string>
+</resources>

@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_settings">Programmeinstellungen</string>
+    <string name="misc_settings">Verschiedene AN/AUS Einstellungen</string>
+    <string name="nokill_title">Schaltet die "NoKill"-Option an oder aus</string>
+    <string name="nokill_sum_on">AN: Anwendungen werden im deep-sleep-Modus NICHT geschlossen</string>
+    <string name="nokill_sum_off">AUS: Standardeinstellung: Alle Anwendungen werden im deep-sleep-Modus geschlossen</string>
+    <string name="UsbDac_title">Schaltet die USB-DAC Option an oder aus</string>
+    <string name="UsbDac_sum_on">AN: Die Lautstärke wird über den Android Lautstärkeregler gesteuert (DAC Unterstützung)</string>
+    <string name="UsbDac_sum_off">AUS: Die Lautstärke wird über den Joying Lautstärkeregler gesteuert</string>
+    <string name="noMcuErrors_title">Option zur Unterdrückung von MCU-Fehlern</string>
+    <string name="noMcuErrors_sum_on">AN: gelber MCU-Fehler in der Statuszeile wird nicht gezeigt</string>
+    <string name="noMcuErrors_sum_off">AUS: gelber MCU-Fehler in der Statuszeile wird gezeigt</string>
+    <string name="skip_ch_four_title">Schaltet Kanal 4 (Alarm) an oder aus</string>
+    <string name="skip_ch_four_sum_on">AN: Kanal 4 wird NICHT stumm geschalten. Sprachausgabe über Google Voice möglich. Es erzeugt auch Rauschen wenn kein anderer Kanal aktiv ist.</string>
+    <string name="skip_ch_four_sum_off">AUS: Kanal 4 ist stumm geschalten. Keine Sprachausgabe über Google Voice möglich. Auch kein Rauschen wenn kein anderer Kanal aktiv ist.</string>
+    <string name="disable_btphonetop_title">Deaktivierung des Vordergrund-Modus der Phone App</string>
+    <string name="disable_btphonetop_sum_on">AN: Bluetooth-Phone App kann während eines Anrufs auch in den Hintergrund verschoben werden</string>
+    <string name="disable_btphonetop_sum_off">AUS: BluetoothPhone App bleibt während des Anrufs immer im Vordergrund</string>
+    <string name="use_root_access_title">Root-Zugriff für Systemaufruf</string>
+    <string name="use_root_access_sum_on">ON: Die Funktion wird als Root ausgeführt</string>
+    <string name="use_root_access_sum_off">OFF: Die Funktion wird als normaler User ausgeführt</string>
+    <string name="show_cpu_temp_title">Option zum Anzeigen der CPU-Temperatur in der Statuszeile</string>
+    <string name="show_cpu_temp_sum_on">AN: Die CPU-Temperatur wird in der Statuszeile angezeigt</string>
+    <string name="show_cpu_temp_sum_off">AUS: Die CPU-Temperatur wird nicht in der Statuszeile angezeigt</string>
+
+    <string name="canbus_settings">Einstellungen für Benutzer mit CAN-Bus</string>
+    <string name="disable_airhelper_title">Deaktivierung das CAN-Bus-Symbol bei Veränderungen an der Klimaanlage</string>
+    <string name="disable_airhelper_sum_on">AN: Das CAN-Bus-Zeichen wird bei einer Veränderung an der Klimaanlage nicht angezeigt.</string>
+    <string name="disable_airhelper_sum_off">AUS: Das CAN-Bus-Symbol wird bei einer Veränderung an der Klimaanlage angezeigt.</string>
+    <string name="disable_doorhelper_title">Deaktivierung das CAN-Bus-Symbols wenn eine Tür geöffnet ist</string>
+    <string name="disable_doorhelper_sum_on">AN: Bei geöffneter Tür wird das CAN-Bus-Symbol nicht angezeigt.</string>
+    <string name="disable_doorhelper_sum_off">AUS: Bei geöffneter Tür wird das CAN-Bus-Symbol angezeigt.</string>
+
+    <string name="tap_delay_title">tap delay: milliseconds allowed between multiple taps (double-tap/triple-tap)</string> 
+    <string name="app_keymod_settings">Zuordnung von Anwendungen/Aktionen zu Hardware-Tasten</string>
+    <string name="band_key_settings">Einstellungen für BAND-Taste (=Radio)</string>
+    <string name="band_key_category">BAND-Taste Einfach-Tippen</string>
+    <string name="band_key_call_title">BAND-Taste: Funktion auswählen</string>
+    <string name="band_key_text_title">BAND-Taste: Paketname als Text eingeben</string>
+    <string name="band_key_category_second">BAND-Taste Doppel-Tippen</string>
+    <string name="band_key_call_title_second">BAND-Taste: Funktion auswählen (doppelt tippen)</string>
+    <string name="band_key_text_title_second">BAND-Taste: Paketname als Text eingeben (doppelt tippen)</string>
+    <string name="band_key_category_third">BAND-Taste Dreifach-Tippen</string>
+    <string name="band_key_call_title_third">BAND-Taste: Funktion auswählen (dreifach tippen)</string>
+    <string name="band_key_text_title_third">BAND-Taste: Paketname als Text eingeben (dreifach tippen)</string>
+
+    <string name="dvd_key_settings">Einstellungen für DVD-Taste</string>
+    <string name="dvd_key_category">DVD-Taste Einfach-Tippen</string>
+    <string name="dvd_key_call_title">DVD-Taste: Funktion auswählen</string>
+    <string name="dvd_key_text_title">DVD-Taste: Paketname als Text eingeben</string>
+    <string name="dvd_key_category_second">DVD-Taste Doppel-Tippen</string>
+    <string name="dvd_key_call_title_second">DVD-Taste: Funktion auswählen (doppelt tippen)</string>
+    <string name="dvd_key_text_title_second">DVD-Taste: Paketname als Text eingeben (doppelt tippen)</string>
+    <string name="dvd_key_category_third">DVD-Taste Dreifach-Tippen</string>
+    <string name="dvd_key_call_title_third">DVD-Taste: Funktion auswählen (dreifach tippen)</string>
+    <string name="dvd_key_text_title_third">DVD-Taste: Paketname als Text eingeben (dreifach tippen)</string>
+
+    <string name="eject_key_settings">Einstellungen für EJECT-Taste</string>
+    <string name="eject_key_category">EJECT-Taste Einfach-Tippen</string>
+    <string name="eject_key_call_title">EJECT-Taste: Funktion auswählen</string>
+    <string name="eject_key_text_title">EJECT-Taste: Paketname als Text eingeben</string>
+    <string name="eject_key_category_second">EJECT-Taste Doppel-Tippen</string>
+    <string name="eject_key_call_title_second">EJECT-Taste: Funktion auswählen (doppelt tippen)</string>
+    <string name="eject_key_text_title_second">EJECT-Taste: Paketname als Text eingeben (doppelt tippen)</string>
+    <string name="eject_key_category_third">EJECT-Taste Dreifach-Tippen</string>
+    <string name="eject_key_call_title_third">EJECT-Taste: Funktion auswählen (dreifach tippen)</string>
+    <string name="eject_key_text_title_third">EJECT-Taste: Paketname als Text eingeben (dreifach tippen)</string>
+
+    <string name="eq_key_settings">Settings for the EQ key</string>
+    <string name="eq_key_category">EQ key Single tap</string>
+    <string name="eq_key_call_title">EQ Key: Call method</string>
+    <string name="eq_key_text_title">EQ Key: String to be used</string>
+    <string name="eq_key_category_second">EQ key Double tap</string>
+    <string name="eq_key_call_title_second">EQ Key: Call method (double tap)</string>
+    <string name="eq_key_text_title_second">EQ Key: String to be used (double tap)</string>
+    <string name="eq_key_category_third">EQ key Triple tap</string>
+    <string name="eq_key_call_title_third">EQ Key: Call method (triple tap)</string>
+    <string name="eq_key_text_title_third">EQ Key: String to be used (triple tap)</string>
+
+    <string name="media_key_settings">Einstellungen für MEDIA-Taste</string>
+    <string name="media_key_category">MEDIA-Taste Einfach-Tippen</string>
+    <string name="media_key_call_title">MEDIA-Taste: Funktion auswählen</string>
+    <string name="media_key_text_title">MEDIA-Taste: Paketname als Text eingeben</string>
+    <string name="media_key_category_second">MEDIA-Taste Doppel-Tippen</string>
+    <string name="media_key_call_title_second">MEDIA-Taste: Funktion auswählen (doppelt tippen)</string>
+    <string name="media_key_text_title_second">MEDIA-Taste: Paketname als Text eingeben (doppelt tippen)</string>
+    <string name="media_key_category_third">MEDIA-Taste Dreifach-Tippen</string>
+    <string name="media_key_call_title_third">MEDIA-Taste: Funktion auswählen (dreifach tippen)</string>
+    <string name="media_key_text_title_third">MEDIA-Taste: Paketname als Text eingeben (dreifach tippen)</string>
+
+    <string name="navi_key_settings">Einstellungen für NAVI-Taste</string>
+    <string name="navi_key_category">NAVI-Taste Einfach-Tippen</string>
+    <string name="navi_key_call_title">NAVI-Taste: Funktion auswählen</string>
+    <string name="navi_key_text_title">NAVI-Taste: Paketname als Text eingeben</string>
+    <string name="navi_key_category_second">NAVI-Taste Doppel-Tippen</string>
+    <string name="navi_key_call_title_second">NAVI-Taste: Funktion auswählen (doppelt tippen)</string>
+    <string name="navi_key_text_title_second">NAVI-Taste: Paketname als Text eingeben (doppelt tippen)</string>
+    <string name="navi_key_category_third">NAVI-Taste Dreifach-Tippen</string>
+    <string name="navi_key_call_title_third">NAVI-Taste: Funktion auswählen (dreifach tippen)</string>
+    <string name="navi_key_text_title_third">NAVI-Taste: Paketname als Text eingeben (dreifach tippen)</string>
+
+    <string name="key_summary">Funktion auswählen</string>
+    <string name="key_text_title">Paketname als Text eingeben</string>
+
+    <string name="sw_keymod_settings">Zuordnung von Anwendungen/Aktionen zu Lenkrad-Tasten</string>
+    <string name="bt_phone_key_settings">Einstellungen für BT_PHONE-Taste</string>
+    <string name="bt_phone_key_category">BT_PHONE-Taste Einfach-Tippen</string>
+    <string name="bt_phone_key_call_title">BT_PHONE-Taste: Funktion auswählen</string>
+    <string name="bt_phone_key_text_title">BT_PHONE-Taste: Paketname als Text eingeben</string>
+    <string name="bt_phone_key_category_second">BT_PHONE-Taste Doppel-Tippen</string>
+    <string name="bt_phone_key_call_title_second">BT_PHONE-Taste: Funktion auswählen (doppelt tippen)</string>
+    <string name="bt_phone_key_text_title_second">BT_PHONE-Taste: Paketname als Text eingeben (doppelt tippen)</string>
+    <string name="bt_phone_key_category_third">BT_PHONE-Taste Dreifach-Tippen</string>
+    <string name="bt_phone_key_call_title_third">BT_PHONE-Taste: Funktion auswählen (dreifach tippen)</string>
+    <string name="bt_phone_key_text_title_third">BT_PHONE-Taste: Paketname als Text eingeben (dreifach tippen)</string>
+
+    <string name="bt_hang_key_settings">Einstellungen für BT_HANG-Taste</string>
+    <string name="bt_hang_key_call_title">BT_HANG-Taste: Funktion auswählen</string>
+    <string name="bt_hang_key_text_title">BT_HANG-Taste: Paketname als Text eingeben</string>
+
+    <string name="mode_src_key_settings">Einstellungen für MODE_SRC-Taste</string>
+    <string name="mode_src_key_call_title">MODE_SRC-Taste: Funktion auswählen</string>
+    <string name="mode_src_key_text_title">MODE_SRC-Taste: Paketname als Text eingeben</string>
+    <string name="mode_src_key_category_second">MODE_SRC-Taste Doppel-Tippen</string>
+    <string name="mode_src_key_call_title_second">MODE_SRC-Taste: Funktion auswählen (doppelt tippen)</string>
+    <string name="mode_src_key_text_title_second">MODE_SRC-Taste: Paketname als Text eingeben (doppelt tippen)</string>
+    <string name="mode_src_key_category_third">MODE_SRC-Taste Dreifach-Tippen</string>
+    <string name="mode_src_key_call_title_third">MODE_SRC-Taste: Funktion auswählen (dreifach tippen)</string>
+    <string name="mode_src_key_text_title_third">MODE_SRC-Taste: Paketname als Text eingeben (dreifach tippen)</string>
+
+    <string name="acc_on_off_settings">Auswahl von Anwendungen/Aktionen wenn Zündung/Radio an oder aus ist, oder beim Aufwachen.</string>
+    <string name="acc_on_settings">Wenn die Zündung an ist (ACC_ON)</string>
+    <string name="acc_on_call_title">ACC_ON: Funktion auswählen</string>
+    <string name="acc_on_text_title">ACC_ON: Paketname als Text eingeben</string>
+    <string name="acc_off_settings">Wenn die Zündung aus ist (ACC_OFF)</string>
+    <string name="acc_off_call_title">ACC_OFF: Funktion auswählen</string>
+    <string name="acc_off_text_title">ACC_OFF: Paketname als Text eingeben</string>
+    <string name="resume_settings">Wenn das Radio aus dem deep-sleep erwacht</string>
+    <string name="resume_call_title">Resume: Funktion auswählen</string>
+    <string name="resume_text_title">Resume: Paketname als Text eingeben</string>
+
+    <string name="sys_keymod_settings">Auswahl von Anwendungen/Aktionen für die HOME/MUTE -Taste (!VORSICHT!); benötigt einen Warmstart.</string>
+    <string name="home_key_capture_enabled_title">Funktion der HOME-Taste ändern</string>
+    <string name="home_key_capture_summary_enabled">Aktiviert: App oder andere Aktion der HOME-Taste zuordnen.</string>
+    <string name="home_key_capture_summary_disabled">Deaktiviert: Standardfunktion HOME-Taste</string>
+    <string name="home_key_settings">Einstellungen für HOME-Taste</string>
+    <string name="home_key_call_title">HOME-Taste: Funktion auswählen</string>
+    <string name="home_key_text_title">HOME-Taste: Paketname als Text eingeben</string>
+    <string name="back_key_capture_enabled_title">Funktion der ZURÜCK-Taste ändern</string>
+    <string name="back_key_capture_summary_enabled">Aktiviert: !VORSICHT! dies überschreibt Androids Standardfunktion "onBackPressed()" für !ALLE! Anwendungen</string>
+    <string name="back_key_capture_summary_disabled">Deaktiviert: Standardfunktion ZURÜCK-Taste</string>
+    <string name="back_key_settings">Einstellungen für ZURÜCK-Taste</string>
+    <string name="back_key_call_title">ZURÜCK-Taste: Funktion auswählen</string>
+    <string name="back_key_text_title">ZURÜCK-Taste: Paketname als Text eingeben</string>
+    <string name="mute_key_capture_enabled_title">Funktion der MUTE-Taste ändern</string>
+    <string name="mute_key_capture_summary_enabled">Aktiviert: App oder andere Aktion der MUTE-Taste zuordnen</string>
+    <string name="mute_key_capture_summary_disabled">Deaktiviert: Standardfunktion für MUTE: Stummschaltung von 5 Audiokanälen (4x Android und das Radio).</string>
+    <string name="mute_key_settings">Einstellungen für MUTE-Taste</string>
+    <string name="mute_key_call_title">MUTE-Taste: Funktion auswählen</string>
+    <string name="mute_key_text_title">MUTE-Taste: Paketname als Text eingeben</string>
+
+    <string name="about_info_screen">Infobildschirm</string>
+    <string name="donation">Spende</string>
+    <string name="paypal_donation_title">Spende via PayPal</string>
+    <string name="paypal_donation_summary">Das ist nicht unbedingt notwendig, aber ihr könnt mir gerne ein Glas Wein spendieren...</string>
+    <string name="about">About</string>
+    <string name="xda_discussion_title">XDA Discussion thread</string>
+    <string name="xda_discussion_summary">Diskutiere oder stelle Fragen über das Modul auf XDA</string>
+    <string name="github_title">Quellcode</string>
+    <string name="github_summary">Erkunde den Quellcode von XFytTweaker auf Github</string>
+
+    <string name="zygote_reboot_title">Diese Änderung erfordert einen Neustart</string>
+    <string name="zygote_reboot_message">Diese Änderung erfordert einen Neustart. Wollen Sie das jetzt tun?</string>
+    <string name="zygote_reboot_soft_reboot">Neustart</string>
+    <string name="zygote_reboot_cancel">Abbrechen</string>
+</resources>

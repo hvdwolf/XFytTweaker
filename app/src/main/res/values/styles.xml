@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Material.Light.DarkActionBar" />
+
+    <style name="AppTheme" parent="AppBaseTheme">
+<!--        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorPrimary">#388e3c</item>
+        <item name="android:colorPrimaryDark">#2e7d32</item>
+        <item name="android:colorAccent">#388e3c</item> -->
+        <item name="android:colorPrimary">#3F51B5</item>
+        <item name="android:colorPrimaryDark">#303F9F</item>
+        <item name="android:colorAccent">#2196f3</item>
+    </style>
+
+</resources>

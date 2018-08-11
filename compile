@@ -1,0 +1,5 @@
+#/bin/sh
+
+curpath=`pwd`
+
+${curpath}/gradlew assembleDebug

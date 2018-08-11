@@ -15,7 +15,7 @@
             android:value="true" />
         <meta-data
             android:name="xposeddescription"
-            android:value="SofiaServer mod; Captures the hardware buttons from the unit to reprogram them; includes NoKill" />
+            android:value="Mods the main server apk on FYT car units; Reprogram hardware buttons; includes NoKill; some other tweaks" />
         <meta-data
             android:name="xposedminversion"
             android:value="53" />

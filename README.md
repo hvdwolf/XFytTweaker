@@ -3,10 +3,10 @@
 ~~For releases see the "[Xposed Module Repository](http://repo.xposed.info/module/org.hvdw.xfyttweaker) or use the Xposed Installer on your Joying unit.~~
 *(Will be released soon)*
 
-This Xposed module is for Android car units based on FYT SOMs. It is primarily focussing on Joying units for both the Intel Sofi 3GR units as well as the Rockchip PX5 units. However, it should function as well on (rooted and Xposed enhanced) Witson units and a couple of other FYT based units. It should work with Android 6.0.1 and Android 8.0.0 units.
+This Xposed module is for Android car units based on FYT SOMs. It is primarily focussing on Joying units for both the Intel Sofia 3GR units as well as the Rockchip PX5 units. However, it should function as well on (rooted and Xposed enhanced) Witson units and a couple of other FYT based units. It should work with Android 6.0.1 and Android 8.0.0 units.
 
 This Xposed module would not have been possible without the excellent Xposed framework and tools by [rovo89](https://github.com/rovo89). Thanks a lot.<br>
-This Xposed module would not have been on Android 8 without the great [RemotePreferences](https://github.com/apsun/RemotePreferences) library from apsun.<br>
+This Xposed module would not have been possible on Android 8 without the great [RemotePreferences](https://github.com/apsun/RemotePreferences) library from apsun.<br>
 
 
 

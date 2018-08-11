@@ -8,21 +8,21 @@ This Xposed module is for Android car units based on FYT SOMs. It is primarily f
 This Xposed module would not have been possible without the excellent Xposed framework and tools by [rovo89](https://github.com/rovo89). Thanks a lot.<br>
 This Xposed module would not have been possible on Android 8 without the great [RemotePreferences](https://github.com/apsun/RemotePreferences) library from apsun.<br>
 
-
+This module is the successor of the [XSofiaTweaker](https://github.com/hvdwolf/XSofiaTweaker) module which completely focused on the Joying Intel Sofia 3GR unit on Android 6.0.1.
 
 This xposed module:
 * captures the hardware keys from the Joying unit and allows you to reprogram them. This must/can be configured from the Settings (sub)screen.
-* allows you to switch on/off the nokill.
+* allows you to switch on/off the nokill option (prevents killing of all apps when going into sleep).
 * allows you to unmute channel 4, which is used for Google voice feedback.
 * can act on the ACC_ON, ACC_OFF and Resume events.
 * has an option to prevent the Bluetooth app from staying full screen on top (thanks to @gtxaspec)
-* has an option to prevent the CANbus overlays popping up on heat/airco change or door(s) opening
+* has an option to prevent the CANbus overlays popping up on heat/airco change or door(s) opening (Android 6 only)
 * has an option to run system calls as root (Know what you do!)
-* has an option to display the CPU temperature in the status bar next to the time
-* has an option to disable the yellow MCU errors overlay (in case this happens to you) (thanks to @RoNeReR)
+* has an option to display the CPU temperature in the status bar
+* has an option to disable the yellow MCU errors overlay (in case this happens to you) (thanks to @RoNeReR) (Android 6 only)
 * supports a usb dac where volume control will be rerouted to stock android volume control (thanks to @RoNeReR)
 * eliminates feedback during the call if you have OK Google anywhere enabled (thanks to @gtxaspec)
-This must/can be configured from the Settings (sub)screen.
+This must/can be configured from the Settings (sub)screens.
 
 This module can replace the custom key mod mod from Gustden.
 
@@ -39,13 +39,9 @@ Please help to translate in your own language: see bottom of this page.
 * Eject (key 32) (confirmed by gtx(aspec))
 * MEDIA (key 33)
 * SRC/Mode (key 37) (confirmed by gtx(aspec))
-* EQ button (with side effects: see below)
+* EQ button
 * HOME (key 3)
 * double tap/triple tap of keys, meaning that you can "rotate" keys. For example: Your steering wheel BT or Mode/SRC button, can start the radio app on 1 tap, start a media player on 2 taps, or start the phone app on 3 taps.
-
-
-**Works with strange side effects:**
-* EQ(ualizer) button: hardware keys disabled for 1-2 minutes, unit mutes and 1-2 seconds later unmutes andhardware keys work again.
 
 
 **ToDo list:**

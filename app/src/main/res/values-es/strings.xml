@@ -168,4 +168,9 @@
     <string name="zygote_reboot_message">Este cambio necesita de un reinicio suave. ¿Quieres reiniciar ahora?</string>
     <string name="zygote_reboot_soft_reboot">Reinicio Suave</string>
     <string name="zygote_reboot_cancel">Cancelar</string>
+
+    <string name="listapps_title">List all installed apps</string>
+    <string name="listapps_summary">Retrieves information on the application packages that are currently installed on the head unit.</string>
+    <string name="listapps_appname">App Name: </string> <!-- add a space behind -->
+    <string name="listapps_pkgname">Package Name: </string> <!-- add a space behind -->
 </resources>

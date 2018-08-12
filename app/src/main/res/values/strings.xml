@@ -177,4 +177,9 @@
     <string name="zygote_reboot_message">This change requires a soft reboot. Do you want to do that now?</string>
     <string name="zygote_reboot_soft_reboot">Soft Reboot</string>
     <string name="zygote_reboot_cancel">Cancel</string>
+
+    <string name="listapps_title">List all installed apps</string>
+    <string name="listapps_summary">Retrieves information on the application packages that are currently installed on the head unit.</string>
+    <string name="listapps_appname">App Name: </string> <!-- add a space behind -->
+    <string name="listapps_pkgname">Package Name: </string> <!-- add a space behind -->
 </resources>

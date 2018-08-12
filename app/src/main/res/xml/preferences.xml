@@ -65,12 +65,21 @@
             android:title="@string/disable_doorhelper_title" />
     </PreferenceScreen>
 
-<!-- only value that stands apart in the preferences as being modifiable in the main settings screen -->
+<!-- only 2 values that stands apart in the preferences as being modifiable in the main settings screen -->
     <EditTextPreference
         android:key="pref_tap_delay"
         android:title="@string/tap_delay_title"
         android:numeric="integer"
         android:defaultValue="300" />
+    <Preference
+        android:key="listapps"
+        android:title="@string/listapps_title"
+        android:summary="@string/listapps_summary">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="org.hvdw.xfyttweaker"
+                android:targetClass="org.hvdw.xfyttweaker.ListInstalledApps" />
+    </Preference>
 
     <PreferenceScreen
         android:title="@string/app_keymod_settings"

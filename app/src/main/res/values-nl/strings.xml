@@ -172,5 +172,10 @@
     <string name="zygote_reboot_title">Deze wijziging vereist een grafische herstart</string>
     <string name="zygote_reboot_message">Deze wijziging vereist een herstart van de grafische schil. Wilt u dat nu doen?</string>
     <string name="zygote_reboot_soft_reboot">Grafische herstart</string>
-<string name="zygote_reboot_cancel">Annuleren</string>
+    <string name="zygote_reboot_cancel">Annuleren</string>
+
+    <string name="listapps_title">Toon alle geinstalleerde apps</string>
+    <string name="listapps_summary">Toont informatie van de applicaties die momenteel geinstalleerd zijn op de head unit.</string>
+    <string name="listapps_appname">App Naam: </string> <!-- add a space behind -->
+    <string name="listapps_pkgname">Package Naam: </string> <!-- add a space behind -->
 </resources>

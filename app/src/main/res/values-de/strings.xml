@@ -173,4 +173,9 @@
     <string name="zygote_reboot_message">Diese Änderung erfordert einen Neustart. Wollen Sie das jetzt tun?</string>
     <string name="zygote_reboot_soft_reboot">Neustart</string>
     <string name="zygote_reboot_cancel">Abbrechen</string>
+
+    <string name="listapps_title">Listet alle installierten Pakete</string>
+    <string name="listapps_summary">Zeigt Informationen zu den Anwendungspaketen, die derzeit auf der head unit installiert sind.</string>
+    <string name="listapps_appname">App Name: </string> <!-- add a space behind -->
+    <string name="listapps_pkgname">Package Name: </string> <!-- add a space behind -->
 </resources>

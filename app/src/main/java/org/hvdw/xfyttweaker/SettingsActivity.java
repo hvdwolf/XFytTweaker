@@ -107,25 +107,4 @@ public class SettingsActivity extends PreferenceActivity {
     }
     /* End of the assets file copy */
 
-    public static void buildAppsList(Context mContext, AttributeSet attrs) {
-        //AppsList MyAppsList = new AppsList(mContext, attrs);
-        //MyAppsList = AppsList.AppsList();
-        /*SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(mContext);
-        ListPreference listPreferenceCategory = (ListPreference) findPreference("app_selector");
-        if (listPreferenceCategory != null) {
-            ArrayList<Category> categoryList = getCategories();
-            CharSequence entries[] = new String[categoryList.size()];
-            CharSequence entryValues[] = new String[categoryList.size()];
-            int i = 0;
-            for (Category category : categoryList) {
-                entries[i] = category.getCategoryName();
-                entryValues[i] = Integer.toString(i);
-                i++;
-            }
-            listPreferenceCategory.setEntries(entries);
-            listPreferenceCategory.setEntryValues(entryValues);
-        } */
-    }
-
-
 }

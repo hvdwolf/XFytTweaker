@@ -471,52 +471,13 @@ public class SettingsFragment extends PreferenceFragment implements OnSharedPref
             getActivity().sendBroadcast(intent);
         }
 
-    if (zygote_reboot == true) {
-        zygote_reboot = false;
-        Utils.rebootZygote(getContext());
-    }
-
-
-    }
-
-    class ApkInfo {
-        private String appname = "";
-        private String pname = "";
-        private String versionName = "";
-        private int versionCode = 0;
-        //private Drawable icon;
-        /*private void prettyPrint() {
-            Log.v(appname + "\t" + pname + "\t" + versionName + "\t" + versionCode);
-        } */
-    }
-
-    private ArrayList<ApkInfo> getPackages() {
-        ArrayList<ApkInfo> apps = getInstalledApps(false); /* false = no system packages */
-        final int max = apps.size();
-        /*for (int i=0; i<max; i++) {
-            apps.get(i).prettyPrint();
-        }*/
-        return apps;
-    }
-
-    private ArrayList<ApkInfo> getInstalledApps(boolean getSysPackages) {
-        ArrayList<ApkInfo> res = new ArrayList<ApkInfo>();
-        // PackageManager pManager = context.getPackageManager();
-        List<PackageInfo> packs = mContext.getPackageManager().getInstalledPackages(0);
-        for(int i=0;i<packs.size();i++) {
-            PackageInfo p = packs.get(i);
-            if ((!getSysPackages) && (p.versionName == null)) {
-                continue ;
-            }
-            ApkInfo newInfo = new ApkInfo();
-            newInfo.appname = p.applicationInfo.loadLabel(mContext.getPackageManager()).toString();
-            newInfo.pname = p.packageName;
-            //newInfo.versionName = p.versionName;
-            //newInfo.versionCode = p.versionCode;
-            //newInfo.icon = p.applicationInfo.loadIcon(getPackageManager());
-            res.add(newInfo);
+        if (zygote_reboot == true) {
+            zygote_reboot = false;
+            Utils.rebootZygote(getContext());
         }
-        return res;
+
+
     }
+
 
 }

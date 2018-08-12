@@ -4,6 +4,7 @@ import android.app.ListActivity;
 import android.app.ProgressDialog;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
+//import android.content.Context;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.os.AsyncTask;
@@ -33,7 +34,7 @@ public class ListInstalledApps  extends ListActivity {
 
 
 
-    @Override
+/*    @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
         super.onListItemClick(l, v, position, id);
 
@@ -41,22 +42,23 @@ public class ListInstalledApps  extends ListActivity {
 
         try{
             Toast.makeText(this, "Launching " + app.loadLabel(packageManager) + "...", Toast.LENGTH_LONG).show();
-            /*Intent intent= packageManager.getLeanbackLaunchIntentForPackage(app.packageName);
+//            Intent intent= packageManager.getLeanbackLaunchIntentForPackage(app.packageName);
 
-            if(intent != null){
-                startActivity(intent);
-            } */
-        }catch (NoSuchMethodError e){
-            Toast.makeText(this, "Launching "+app.loadLabel(packageManager)+ "...", Toast.LENGTH_LONG).show();
+//            if(intent != null){
+//                startActivity(intent);
+//            }
 
-        }
+//        }catch (NoSuchMethodError e){
+//            Toast.makeText(this, "Launching "+app.loadLabel(packageManager)+ "...", Toast.LENGTH_LONG).show();
+
+//        }
 
         catch (ActivityNotFoundException e){
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_LONG).show();
         }catch (Exception e){
             Toast.makeText(this, e.getMessage(), Toast.LENGTH_LONG).show();
         }
-    }
+    } */
 
     private List<ApplicationInfo> checkForLaunchIntent(List<ApplicationInfo> list){
         ArrayList<ApplicationInfo> applist=new ArrayList<ApplicationInfo>();

@@ -1,7 +1,7 @@
 # XFytTweaker
 
-~~For releases see the "[Xposed Module Repository](http://repo.xposed.info/module/org.hvdw.xfyttweaker) or use the Xposed Installer on your Joying unit.~~
-*(Will be released soon)*
+For releases see the "[Xposed Module Repository](http://repo.xposed.info/module/org.hvdw.xfyttweaker) or use the Xposed Installer on your Joying unit. The module can also be installed from my [JET apk](https://hvdwolf.github.io/Joying-RootAssistant/).
+
 ![logo](https://github.com/hvdwolf/XFytTweaker/blob/master/images/logo.png)
 
 This Xposed module is for Android car units based on FYT SOMs. It is primarily focussing on Joying units for both the Intel Sofia 3GR units as well as the Rockchip PX5 units. However, it should function as well on (rooted and Xposed enhanced) Witson units and a couple of other FYT based units. It should work with Android 6.0.1 and Android 8.0.0 units.

@@ -642,6 +642,14 @@
                     android:action="android.intent.action.VIEW"
                     android:data="https://github.com/hvdwolf/XFytTweaker" />
             </Preference>
+            <Preference
+                android:key="githubwiki"
+                android:title="HowTo / Mini Manual"
+                android:summary="This will open the WiKi page of the XFytTweaker with info on how to use the app">
+                <intent
+                    android:action="android.intent.action.VIEW"
+                    android:data="https://github.com/hvdwolf/XFytTweaker/wiki" />
+            </Preference>
         </PreferenceCategory>
 <!--        <PreferenceCategory
             android:title="@string/donation"

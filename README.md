@@ -1,10 +1,10 @@
 # XFytTweaker
 
-For releases see the "[Xposed Module Repository](http://repo.xposed.info/module/org.hvdw.xfyttweaker) or use the Xposed Installer on your Joying unit. The module can also be installed from my [JET apk](https://hvdwolf.github.io/Joying-RootAssistant/).
+For releases see the "[Xposed Module Repository](http://repo.xposed.info/module/org.hvdw.xfyttweaker)" or use the Xposed Installer on your Joying unit. The module can also be installed from my [JET apk](https://hvdwolf.github.io/Joying-RootAssistant/).
 
 ![logo](https://github.com/hvdwolf/XFytTweaker/blob/master/images/logo.png)
 
-This Xposed module is for Android car units based on FYT SOMs. It is primarily focussing on Joying units for both the Intel Sofia 3GR units as well as the Rockchip PX5 units. However, it should function as well on (rooted and Xposed enhanced) Witson units and a couple of other FYT based units. It should work with Android 6.0.1 and Android 8.0.0 units.
+This Xposed module is for Android car units based on FYT SOMs. It is primarily focussing on Joying units for both the Intel Sofia 3GR units as well as the Rockchip PX5 units. However, it should function as well on (rooted and Xposed enhanced) FYT based Witson units and a couple of other FYT based units. It should work with Android 6.0.1 and Android 8.0.0 units.
 
 This Xposed module would not have been possible without the excellent Xposed framework and tools by [rovo89](https://github.com/rovo89). Thanks a lot.<br>
 This Xposed module would not have been possible on Android 8 without the great [RemotePreferences](https://github.com/apsun/RemotePreferences) library from apsun.<br>
@@ -25,7 +25,7 @@ This xposed module:
 * eliminates feedback during the call if you have OK Google anywhere enabled (thanks to @gtxaspec)
 This must/can be configured from the Settings (sub)screens.
 
-This module can replace the custom key mod mod from Gustden.
+This module can and should replace the custom key mod mod from Gustden.
 
 Please help to translate in your own language: see bottom of this page.
 
@@ -56,13 +56,16 @@ Some apps prevent the unit from going into deep-sleep. The old SofiaServer simpl
 ## Some preliminary images
 **Main settings screen**
 ![Image of main settings screen](https://github.com/hvdwolf/XFytTweaker/blob/master/images/01-Settings-Main.png)
+
 **Miscellaneous Settings**
 ![Image of Miscellaneous Settings](https://github.com/hvdwolf/XFytTweaker/blob/master/images/02-Settings-Miscellaneous.png)
 
 **Application Key Mod Settings**
 ![Image of app key mods settings](https://github.com/hvdwolf/XFytTweaker/blob/master/images/03-00-Settings-AppKeyMods.png)
+
 **Call Method**
 ![Image of app key call method](https://github.com/hvdwolf/XFytTweaker/blob/master/images/03-01-Settings-AppKeyMods.png)
+
 **String to be used**
 ![Image of app key mods text string](https://github.com/hvdwolf/XFytTweaker/blob/master/images/03-02-Settings-AppKeyMods.png)
 
@@ -71,10 +74,11 @@ Some apps prevent the unit from going into deep-sleep. The old SofiaServer simpl
 
 **System Key Mod Settings**
 ![Image of System Key Mod Settings](https://github.com/hvdwolf/XFytTweaker/blob/master/images/05-00-systemkeys.png)
+
 **System Key Mod Settings modified**
 ![Image of System Key Mod Settings modified](https://github.com/hvdwolf/XFytTweaker/blob/master/images/05-01-systemkeys.png)
 
-**Info screen**
+**Info screen**<br>
 ![Image of System Key Mod Settings](https://github.com/hvdwolf/XFytTweaker/blob/master/images/06-00-info.png)
 
 ## Translations

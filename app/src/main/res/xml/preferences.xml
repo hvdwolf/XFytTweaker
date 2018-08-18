@@ -46,6 +46,12 @@
             android:summaryOn="@string/show_cpu_temp_sum_on"
             android:summaryOff="@string/show_cpu_temp_sum_off"
             android:title="@string/show_cpu_temp_title" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="hide_volumebar"
+            android:summaryOn="@string/hide_volumebar_sum_on"
+            android:summaryOff="@string/hide_volumebar_sum_off"
+            android:title="@string/hide_volumebar_title" />
     </PreferenceScreen>
 
     <PreferenceScreen

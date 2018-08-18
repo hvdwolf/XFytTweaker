@@ -42,6 +42,10 @@ class MySettings {
     public static final String ACTION_SHOW_CPU_TEMP_CHANGED = "org.hvdw.xfyttweaker.action.ACTION_SHOW_CPU_TEMP_CHANGED";
     public static final String EXTRA_SHOW_CPU_TEMP_ENABLED = "org.hvdw.xfyttweaker.extra.SHOW_CPU_TEMP_ENABLED";
 
+    public static final String HIDE_VOLUMEBAR = "hide_volumebar";
+    public static final String ACTION_HIDE_VOLUMEBAR_CHANGED = "org.hvdw.xfyttweaker.action.ACTION_HIDE_VOLUMEBAR_CHANGED";
+    public static final String EXTRA_HIDE_VOLUMEBAR_ENABLED = "org.hvdw.xfyttweaker.extra.HIDE_VOLUMEBAR_ENABLED";
+
     public static final String PREF_TAP_DELAY = "pref_tap_delay";
     public static final String ACTION_PREF_TAP_DELAY_CHANGED = "org.hvdw.xfyttweaker.action.ACTION_PREF_TAP_DELAY_CHANGED";
     public static final String EXTRA_PREF_TAP_DELAY_ENTRY = "org.hvdw.xfyttweaker.extra.PREF_TAP_DELAY_ENTRY";

@@ -22,6 +22,9 @@
     <string name="show_cpu_temp_title">Option zum Anzeigen der CPU-Temperatur in der Statuszeile</string>
     <string name="show_cpu_temp_sum_on">AN: Die CPU-Temperatur wird in der Statuszeile angezeigt</string>
     <string name="show_cpu_temp_sum_off">AUS: Die CPU-Temperatur wird nicht in der Statuszeile angezeigt</string>
+    <string name="hide_volumebar_title">Option to hide the volume bar on volume changes (volume always indicated in the status bar).</string>
+    <string name="hide_volumebar_sum_on">ON: Volume Bar will be hidden.</string>
+    <string name="hide_volumebar_sum_off">OFF: Volume bar will be displayed on volume changes.</string>
 
     <string name="canbus_settings">Einstellungen für Benutzer mit CAN-Bus</string>
     <string name="disable_airhelper_title">Deaktivierung das CAN-Bus-Symbol bei Veränderungen an der Klimaanlage</string>

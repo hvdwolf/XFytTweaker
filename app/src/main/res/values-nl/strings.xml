@@ -22,6 +22,9 @@
     <string name="show_cpu_temp_title">Optie om de CPU temperatuur te tonen in de statusbalk</string>
     <string name="show_cpu_temp_sum_on">AAN: CPU temperatuur wordt getoond in de statusbalk</string>
     <string name="show_cpu_temp_sum_off">UIT: CPU temperatuur wordt NIET getoond in de statusbalk</string>
+    <string name="hide_volumebar_title">Optie om de Volumevalk niet te tone bij volume veranderingen (volume sowieso zichtbaar in statusbalk).</string>
+    <string name="hide_volumebar_sum_on">AAN: Volumebalk wordt niet getoond.</string>
+    <string name="hide_volumebar_sum_off">OFF: Volume bar wordt wel getoond bij volumewijzigingen.</string>
 
     <string name="canbus_settings">Instellingen voor gebruikers met een CAN bus</string>
     <string name="disable_airhelper_title">Schakel Canbus overlay uit bij een aircondition wijziging</string>

@@ -449,6 +449,11 @@ public class SettingsFragment extends PreferenceFragment implements OnSharedPref
                 additionalText = "\nWait up to 1 minute for the update of the time in the status bar";
                 //zygote_reboot = true;
                 break;
+            case MySettings.HIDE_VOLUMEBAR:
+                intent.setAction(MySettings.ACTION_HIDE_VOLUMEBAR_CHANGED);
+                intent.putExtra(MySettings.EXTRA_HIDE_VOLUMEBAR_ENABLED, sharedPreferences.getBoolean(key, false));
+                toastText = "BOOLEAN_KEY";
+                break;
             default:
                 Log.d(TAG, "Invalid setting encountered");
                 break;

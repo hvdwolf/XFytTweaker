@@ -22,6 +22,9 @@
     <string name="show_cpu_temp_title">Opción para mostrar la temperatura de la CPU en la barra de estado</string>
     <string name="show_cpu_temp_sum_on">ON: La temperatura de la CPU se muestra en la barra de estado</string>
     <string name="show_cpu_temp_sum_off">OFF: La temperatura de la CPU NO se mostrará en la barra de estado</string>
+    <string name="hide_volumebar_title">Option to hide the volume bar on volume changes (volume always indicated in the status bar).</string>
+    <string name="hide_volumebar_sum_on">ON: Volume Bar will be hidden.</string>
+    <string name="hide_volumebar_sum_off">OFF: Volume bar will be displayed on volume changes.</string>
 
     <string name="canbus_settings">Ajustes para usuarios con CAN Bus</string>
     <string name="disable_airhelper_title">Desactivar el cartel Canbus cuando haya un cambio en el climatizador</string>

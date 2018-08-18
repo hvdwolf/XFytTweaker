@@ -23,6 +23,9 @@
     <string name="show_cpu_temp_title">Option to display CPU temperature in the status bar</string>
     <string name="show_cpu_temp_sum_on">ON: CPU temperature is displayed in the status bar</string>
     <string name="show_cpu_temp_sum_off">OFF: CPU temperature is NOT displayed in status bar</string>
+    <string name="hide_volumebar_title">Option to hide the volume bar on volume changes (volume always indicated in the status bar).</string>
+    <string name="hide_volumebar_sum_on">ON: Volume Bar will be hidden.</string>
+    <string name="hide_volumebar_sum_off">OFF: Volume bar will be displayed on volume changes.</string>
 
     <string name="canbus_settings">Settings for users with CAN bus</string>
     <string name="disable_airhelper_title">Disable canbus overlay on airconditioning change</string>

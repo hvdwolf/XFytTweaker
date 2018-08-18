@@ -4,15 +4,8 @@ import android.util.Log;
 import android.content.Intent;
 import android.content.Context;
 import android.content.pm.PackageManager;
-/*import android.content.SharedPreferences;
-import android.app.Activity;
-import android.app.ActivityManager;
-import android.app.ActivityManager.RunningTaskInfo; */
 import android.content.ComponentName;
 import android.content.SharedPreferences;
-/*import android.content.SharedPreferences;
-import android.preference.Preferences;
-import android.preference.PreferenceManager; */
 import android.app.AndroidAppHelper;
 import android.widget.Toast;
 /* shellExec and rootExec methods */
@@ -47,11 +40,8 @@ import de.robv.android.xposed.XSharedPreferences;
 import de.robv.android.xposed.XC_MethodHook;
 import de.robv.android.xposed.callbacks.XC_LoadPackage;
 import de.robv.android.xposed.XposedHelpers;
-//import de.robv.android.xposed.XC_MethodReplacement;
-//import de.robv.android.xposed.callbacks.XC_LoadPackage;
 
 import com.crossbowffs.remotepreferences.RemotePreferences;
-//import org.hvdw.xfyttweaker.MySettings;
 import java.io.File;
 import java.util.Map;
 //import android.os.SystemProperties;
@@ -79,6 +69,7 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
     private boolean disable_btphonetop;
     private boolean use_root_access;
     private boolean show_cpu_temp;
+    private boolean hide_volumebar;
     private boolean display_org_clock = false; // just a helper boolean for show_cpu_temp, not a setting.
     public boolean firstCall = false; // For the "eliminate feedback during the call if you have OK Google anywhere enabled"
 
@@ -155,27 +146,6 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
     private static int count3 = 0;
     //private static int delay3 = 300;
 
-    /*public static boolean isDebugMode() {
-        // Hard-coded flag check
-        //if (Common.getInstance().DEBUG) {
-        //    return true;
-        //}
-
-        // Load XSharedPreferences before we start checking if debug mode is enabled from user.
-        if (xsharedprefs == null) {
-            refreshSharedPreferences(false);
-        }
-
-        // Attempt to check if debug mode is toggled by the user
-        // Use RemotePreference first as this will be have the most recent (and stable) data.
-        // Use XSharedPreference instance if RemotePreference instance doesn't exist yet.
-        if(sharedprefs != null) {
-            return sharedprefs.getBoolean(PreferencesSettings.KEYS.MAIN.DEBUG, PreferencesSettings.DEFAULT_VALUES.MAIN.DEBUG);
-        } else {
-            return xsharedprefs.getBoolean(PreferencesSettings.KEYS.MAIN.DEBUG, PreferencesSettings.DEFAULT_VALUES.MAIN.DEBUG);
-        }
-    } */
-
     public static void log(String message) {
         XposedBridge.log("[" + TAG + "] " + message);
     }
@@ -192,55 +162,10 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
         }
     }
 
-    public static void refreshSharedPreferences(boolean displayLogs) {
-        log("inside public static void refreshSharedPreferences");
-        //makePrefsReadable();
-
-        xsharedprefs = new XSharedPreferences(MySettings.SHARED_PREFS_FILENAME);
-        //xsharedprefs.makeWorldReadable();
-        //xsharedprefs.reload();
-
-        // Only continue if we want to produce logging
-        //if(!displayLogs) {
-        //    return;
-        //}
-
-        // Logging the properties to see if the file is actually readable
-        //XposedBridge.log(TAG + "Shared Preferences Properties:");
-        //XposedBridge.log(TAG + "World Readable: " + xsharedprefs.makeWorldReadable());
-        //XposedBridge.log(TAG + "Path: " + xsharedprefs.getFile().getAbsolutePath());
-        //XposedBridge.log(TAG + "File Readable: " + xsharedprefs.getFile().canRead());
-        //XposedBridge.log(TAG + "Exists: " + xsharedprefs.getFile().exists());
-
-        if (xsharedprefs.getAll().size() == 0) {
-            log("Shared Preferences seems not to be initialized or does not have read permissions. Common on ROMs with SELinux enforcing.");
-            //log("Trying to load Shared Preferences Defaults Instead.");
-        } else {
-            log("");
-            log("Loading Shared Preferences:");
-            Map<String, ?> prefsMap = sharedprefs.getAll();
-            for(String key: prefsMap.keySet()) {
-                String val = prefsMap.get(key).toString();
-                log("\t " + key + ": " + val);
-            }
-        }
-    }
 
     @Override
     public void initZygote(StartupParam startupParam) throws Throwable {
         log("inside public void initZygote");
-        makePrefsReadable();        
-        //refreshSharedPreferences(true);
-        //Do not try to read the RemotePreferences here. Not available yet in Initzygote
-        //GlobalVars GlobalVars = GlobalVars.getInstance();
-
-
-        // check our assets file and copy to /sdcard/XFytTweaker if necessary
-        /*Log.d(TAG, "copying navi_app.txt");
-        UtilsActivity.CheckCopyAssetFile(mContext, "navi_app.txt");
-        Log.d(TAG, "copying player_app.txt");
-        UtilsActivity.CheckCopyAssetFile(mContext, "player_app.txt"); */
-
     }
 
 
@@ -416,6 +341,7 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
                 sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
                 UsbDac = sharedprefs.getBoolean(MySettings.PREF_UsbDac, true);
+//                if ((UsbDac == true) || (hide_volumebar == true)) {
                 if (UsbDac == true) {
                     //log("USBDac Stop setStreamVol");
                     param.setResult(null);
@@ -424,6 +350,20 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
         });
 //        }
         //USB-DAC-END
+
+        //Hide Volume Bar
+        findAndHookMethod("module.sound.HandlerSound", lpparam.classLoader, "showVolUi", new XC_MethodHook() {
+            @Override
+            protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
+                Context mcontext = (Context) AndroidAppHelper.currentApplication();
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
+                hide_volumebar = sharedprefs.getBoolean(MySettings.HIDE_VOLUMEBAR, false);
+                if (hide_volumebar == true) {
+                    param.setResult(null);
+                }
+            }
+        });
+
 
         findAndHookMethod("ui.InfoView", lpparam.classLoader, "addSelfToWindow", new XC_MethodHook() {
             @Override

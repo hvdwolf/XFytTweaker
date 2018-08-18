@@ -22,6 +22,9 @@
     <string name="show_cpu_temp_title">Отображение температуры процессора в строке состояния</string>
     <string name="show_cpu_temp_sum_on">ВКЛ: Температура процессора отображается в строке состояния</string>
     <string name="show_cpu_temp_sum_off">ВЫКЛ: Температура процессора не отображается в строке состояния</string>
+    <string name="hide_volumebar_title">Option to hide the volume bar on volume changes (volume always indicated in the status bar).</string>
+    <string name="hide_volumebar_sum_on">ON: Volume Bar will be hidden.</string>
+    <string name="hide_volumebar_sum_off">OFF: Volume bar will be displayed on volume changes.</string>
 
     <string name="canbus_settings">Настройки для пользователей с CAN bus</string>
     <string name="disable_airhelper_title">Наложение CAN bus при изменении кондиционера</string>

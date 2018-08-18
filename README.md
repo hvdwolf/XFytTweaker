@@ -21,6 +21,7 @@ This xposed module:
 * has an option to run system calls as root (Know what you do!)
 * has an option to display the CPU temperature in the status bar
 * has an option to disable the yellow MCU errors overlay (in case this happens to you) (thanks to @RoNeReR) (Android 6 only)
+* has an option to hide the volume bar whcih overlays on volume changes (volume is always numerically displayed in status bar) (thanks to @IG_Vasilich for pointing out the hook)
 * supports a usb dac where volume control will be rerouted to stock android volume control (thanks to @RoNeReR)
 * eliminates feedback during the call if you have OK Google anywhere enabled (thanks to @gtxaspec)
 This must/can be configured from the Settings (sub)screens.

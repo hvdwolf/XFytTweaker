@@ -1,11 +1,11 @@
 package org.hvdw.xfyttweaker;
 
-class MySettings {
+class MyConstants {
 
     public static final String PACKAGE_APP = "org.hvdw.xfyttweaker";
     public static final String SHARED_PREFS_FILENAME = PACKAGE_APP + "_preferences";
 
-    /* All the necessary variables */
+    /* All the necessary constants */
     public static final String PREF_NO_KILL = "pref_no_kill";
     public static final String ACTION_PREF_NO_KILL_CHANGED = "org.hvdw.xfyttweaker.action.ACTION_PREF_NO_KILL_CHANGED";
     public static final String EXTRA_PREF_NO_KILL_ENABLED = "org.hvdw.xfyttweaker.extra.PREF_NO_KILL_ENABLED";
@@ -260,6 +260,6 @@ class MySettings {
     public static final String ACTION_MUTE_CALL_ENTRY_CHANGED = "org.hvdw.xfyttweaker.action.ACTION_MUTE_CALL_ENTRY_CHANGED";
     public static final String EXTRA_MUTE_CALL_ENTRY_STRING = "org.hvdw.xfyttweaker.extra.PREF_MUTE_CALL_ENTRY_STRING";
 
-    /* End of all the necessary variables */
+    /* End of all the necessary constants */
 
 }

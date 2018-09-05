@@ -261,8 +261,8 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
             @Override
             protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                noKillEnabled = sharedprefs.getBoolean(MySettings.PREF_NO_KILL, true);
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                noKillEnabled = sharedprefs.getBoolean(MyConstants.PREF_NO_KILL, true);
                 if (noKillEnabled == true) {
                     String Strnke = String.valueOf(noKillEnabled);
                     log("value of noKillEnabled is: " + Strnke);
@@ -280,8 +280,8 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
             @Override
             protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                UsbDac = sharedprefs.getBoolean(MySettings.PREF_UsbDac, true);
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                UsbDac = sharedprefs.getBoolean(MyConstants.PREF_UsbDac, true);
                 if (UsbDac == true) {
                     AudioManager audioManager = (AudioManager)mcontext.getSystemService(Context.AUDIO_SERVICE);
                     CurrentVolume = audioManager.getStreamVolume(AudioManager.STREAM_MUSIC);
@@ -299,8 +299,8 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
             @Override
             protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                UsbDac = sharedprefs.getBoolean(MySettings.PREF_UsbDac, true);
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                UsbDac = sharedprefs.getBoolean(MyConstants.PREF_UsbDac, true);
                 if (UsbDac == true) {
                     AudioManager audioManager = (AudioManager)mcontext.getSystemService(Context.AUDIO_SERVICE);
                     CurrentVolume = audioManager.getStreamVolume(AudioManager.STREAM_MUSIC);
@@ -318,8 +318,8 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
             @Override
             protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                UsbDac = sharedprefs.getBoolean(MySettings.PREF_UsbDac, true);
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                UsbDac = sharedprefs.getBoolean(MyConstants.PREF_UsbDac, true);
                 if (UsbDac == true) {
                     AudioManager audioManager = (AudioManager)mcontext.getSystemService(Context.AUDIO_SERVICE);
                     audioManager.adjustStreamVolume(3, 101, 1);
@@ -339,8 +339,8 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
             @Override
             protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                UsbDac = sharedprefs.getBoolean(MySettings.PREF_UsbDac, true);
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                UsbDac = sharedprefs.getBoolean(MyConstants.PREF_UsbDac, true);
 //                if ((UsbDac == true) || (hide_volumebar == true)) {
                 if (UsbDac == true) {
                     //log("USBDac Stop setStreamVol");
@@ -356,8 +356,8 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
             @Override
             protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                hide_volumebar = sharedprefs.getBoolean(MySettings.HIDE_VOLUMEBAR, false);
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                hide_volumebar = sharedprefs.getBoolean(MyConstants.HIDE_VOLUMEBAR, false);
                 if (hide_volumebar == true) {
                     param.setResult(null);
                 }
@@ -369,8 +369,8 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
             @Override
             protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                noMcuErrors = sharedprefs.getBoolean(MySettings.PREF_NO_MCU_ERRORS, true);
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                noMcuErrors = sharedprefs.getBoolean(MyConstants.PREF_NO_MCU_ERRORS, true);
                 if (noMcuErrors == true) {
                     log("McuErrors enabled; do not display McuErrors");
                     param.setResult(null);
@@ -391,9 +391,9 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
                 int stream = (int) param.args[0];
                 if (stream == 4) {
                     Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                    sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                    skip_ch_four = sharedprefs.getBoolean(MySettings.PREF_SKIP_CH_FOUR, false);
-                    UsbDac = sharedprefs.getBoolean(MySettings.PREF_UsbDac, true);
+                    sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                    skip_ch_four = sharedprefs.getBoolean(MyConstants.PREF_SKIP_CH_FOUR, false);
+                    UsbDac = sharedprefs.getBoolean(MyConstants.PREF_UsbDac, true);
                     if (skip_ch_four == true && UsbDac == false) { //USB-DAC find and replace if (skip_ch_four == true)
                         log(" skipping alarm channel 4 mute");
                         param.setResult(null);
@@ -411,8 +411,8 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
                @Override
                protected void beforeHookedMethod(MethodHookParam param) throws Throwable {
                     Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                    sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                    disable_btphonetop = sharedprefs.getBoolean(MySettings.PREF_DISABLE_BTPHONETOP, false);
+                    sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                    disable_btphonetop = sharedprefs.getBoolean(MyConstants.PREF_DISABLE_BTPHONETOP, false);
                     if (disable_btphonetop == true) {
                        log("Prevent bt phone app from forcing always on top during call");
                        param.setResult(null);
@@ -427,9 +427,9 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
             @Override
             protected void afterHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                resume_call_option = sharedprefs.getString(MySettings.RESUME_CALL_OPTION, "");
-                resume_call_entry = sharedprefs.getString(MySettings.RESUME_CALL_ENTRY, "");
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                resume_call_option = sharedprefs.getString(MyConstants.RESUME_CALL_OPTION, "");
+                resume_call_entry = sharedprefs.getString(MyConstants.RESUME_CALL_ENTRY, "");
                 log(" Execute the RESUME action using specific call method");
             }
         });
@@ -440,14 +440,14 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
             @Override
             protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                bt_phone_call_option = sharedprefs.getString(MySettings.BT_PHONE_CALL_OPTION, "");
-                bt_phone_call_entry = sharedprefs.getString(MySettings.BT_PHONE_CALL_ENTRY, "");
-                bt_phone_call_option_second = sharedprefs.getString(MySettings.BT_PHONE_CALL_OPTION_SECOND, "");
-                bt_phone_call_entry_second = sharedprefs.getString(MySettings.BT_PHONE_CALL_ENTRY_SECOND, "");
-                bt_phone_call_option_third = sharedprefs.getString(MySettings.BT_PHONE_CALL_OPTION_THIRD, "");
-                bt_phone_call_entry_third = sharedprefs.getString(MySettings.BT_PHONE_CALL_ENTRY_THIRD, "");
-                tap_delay = Integer.parseInt(sharedprefs.getString(MySettings.PREF_TAP_DELAY, "300"));
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                bt_phone_call_option = sharedprefs.getString(MyConstants.BT_PHONE_CALL_OPTION, "");
+                bt_phone_call_entry = sharedprefs.getString(MyConstants.BT_PHONE_CALL_ENTRY, "");
+                bt_phone_call_option_second = sharedprefs.getString(MyConstants.BT_PHONE_CALL_OPTION_SECOND, "");
+                bt_phone_call_entry_second = sharedprefs.getString(MyConstants.BT_PHONE_CALL_ENTRY_SECOND, "");
+                bt_phone_call_option_third = sharedprefs.getString(MyConstants.BT_PHONE_CALL_OPTION_THIRD, "");
+                bt_phone_call_entry_third = sharedprefs.getString(MyConstants.BT_PHONE_CALL_ENTRY_THIRD, "");
+                tap_delay = Integer.parseInt(sharedprefs.getString(MyConstants.PREF_TAP_DELAY, "300"));
                 if ((bt_phone_call_option != "") && (bt_phone_call_entry != "")) {
                 log("mcuKeyBtPhone pressed; bt_phone_call_option: " + bt_phone_call_option + " bt_phone_call_entry : " + bt_phone_call_entry);
                     /* whichActionToPerform(context, bt_phone_call_option, bt_phone_call_entry); */
@@ -464,14 +464,14 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
             @Override
             protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                navi_call_option = sharedprefs.getString(MySettings.NAVI_CALL_OPTION, "");
-                navi_call_entry = sharedprefs.getString(MySettings.NAVI_CALL_ENTRY, "");
-                navi_call_option_second = sharedprefs.getString(MySettings.NAVI_CALL_OPTION_SECOND, "");
-                navi_call_entry_second = sharedprefs.getString(MySettings.NAVI_CALL_ENTRY_SECOND, "");
-                navi_call_option_third = sharedprefs.getString(MySettings.NAVI_CALL_OPTION_THIRD, "");
-                navi_call_entry_third = sharedprefs.getString(MySettings.NAVI_CALL_ENTRY_THIRD, "");
-                tap_delay = Integer.parseInt(sharedprefs.getString(MySettings.PREF_TAP_DELAY, "300"));
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                navi_call_option = sharedprefs.getString(MyConstants.NAVI_CALL_OPTION, "");
+                navi_call_entry = sharedprefs.getString(MyConstants.NAVI_CALL_ENTRY, "");
+                navi_call_option_second = sharedprefs.getString(MyConstants.NAVI_CALL_OPTION_SECOND, "");
+                navi_call_entry_second = sharedprefs.getString(MyConstants.NAVI_CALL_ENTRY_SECOND, "");
+                navi_call_option_third = sharedprefs.getString(MyConstants.NAVI_CALL_OPTION_THIRD, "");
+                navi_call_entry_third = sharedprefs.getString(MyConstants.NAVI_CALL_ENTRY_THIRD, "");
+                tap_delay = Integer.parseInt(sharedprefs.getString(MyConstants.PREF_TAP_DELAY, "300"));
                 if ((navi_call_option != "") && (navi_call_entry != "")) {
                     log("mcuKeyNavi  pressed; navi_call_option: " + navi_call_option + " navi_call_entry : " + navi_call_entry);
                     /* whichActionToPerform(context, navi_call_option, navi_call_entry); */
@@ -489,20 +489,20 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
             @Override
             protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                band_call_option = sharedprefs.getString(MySettings.BAND_CALL_OPTION, "");
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                band_call_option = sharedprefs.getString(MyConstants.BAND_CALL_OPTION, "");
                 //log("mcuKeyBand band_call_option: " + band_call_option);
-                band_call_entry = sharedprefs.getString(MySettings.BAND_CALL_ENTRY, "");
+                band_call_entry = sharedprefs.getString(MyConstants.BAND_CALL_ENTRY, "");
                 //log("mcuKeyBand band_call_entry: " + band_call_entry);
-                band_call_option_second = sharedprefs.getString(MySettings.BAND_CALL_OPTION_SECOND, "");
+                band_call_option_second = sharedprefs.getString(MyConstants.BAND_CALL_OPTION_SECOND, "");
                 //log("mcuKeyBand band_call_option_second: " + band_call_option_second);
-                band_call_entry_second = sharedprefs.getString(MySettings.BAND_CALL_ENTRY_SECOND, "");
+                band_call_entry_second = sharedprefs.getString(MyConstants.BAND_CALL_ENTRY_SECOND, "");
                 //log("mcuKeyBand band_call_entry_second: " + band_call_entry_second);
-                band_call_option_third = sharedprefs.getString(MySettings.BAND_CALL_OPTION_THIRD, "");
+                band_call_option_third = sharedprefs.getString(MyConstants.BAND_CALL_OPTION_THIRD, "");
                 //log("mcuKeyBand band_call_option_third: " + band_call_option_third);
-                band_call_entry_third = sharedprefs.getString(MySettings.BAND_CALL_ENTRY_THIRD, "");
+                band_call_entry_third = sharedprefs.getString(MyConstants.BAND_CALL_ENTRY_THIRD, "");
                 //log("mcuKeyBand band_call_entry_third: " + band_call_entry_third);
-                tap_delay = Integer.parseInt(sharedprefs.getString(MySettings.PREF_TAP_DELAY, "300"));
+                tap_delay = Integer.parseInt(sharedprefs.getString(MyConstants.PREF_TAP_DELAY, "300"));
                 //log("mcuKeyBand tap_delay: " + tap_delay);
                 log("mcuKeyBand (Radio) pressed; forward action to specific call method");
                 log("mcuKeyBand band_call_option: " + band_call_option + " band_call_entry : " + band_call_entry);
@@ -519,14 +519,14 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
             @Override
             protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                mode_src_call_option = sharedprefs.getString(MySettings.MODE_SRC_CALL_OPTION, "");
-                mode_src_call_entry = sharedprefs.getString(MySettings.MODE_SRC_CALL_ENTRY, "");
-                mode_src_call_option_second = sharedprefs.getString(MySettings.MODE_SRC_CALL_OPTION_SECOND, "");
-                mode_src_call_entry_second = sharedprefs.getString(MySettings.MODE_SRC_CALL_ENTRY_SECOND, "");
-                mode_src_call_option_third = sharedprefs.getString(MySettings.MODE_SRC_CALL_OPTION_THIRD, "");
-                mode_src_call_entry_third = sharedprefs.getString(MySettings.MODE_SRC_CALL_ENTRY_THIRD, "");
-                tap_delay = Integer.parseInt(sharedprefs.getString(MySettings.PREF_TAP_DELAY, "300"));
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                mode_src_call_option = sharedprefs.getString(MyConstants.MODE_SRC_CALL_OPTION, "");
+                mode_src_call_entry = sharedprefs.getString(MyConstants.MODE_SRC_CALL_ENTRY, "");
+                mode_src_call_option_second = sharedprefs.getString(MyConstants.MODE_SRC_CALL_OPTION_SECOND, "");
+                mode_src_call_entry_second = sharedprefs.getString(MyConstants.MODE_SRC_CALL_ENTRY_SECOND, "");
+                mode_src_call_option_third = sharedprefs.getString(MyConstants.MODE_SRC_CALL_OPTION_THIRD, "");
+                mode_src_call_entry_third = sharedprefs.getString(MyConstants.MODE_SRC_CALL_ENTRY_THIRD, "");
+                tap_delay = Integer.parseInt(sharedprefs.getString(MyConstants.PREF_TAP_DELAY, "300"));
                 if ((mode_src_call_option != "") && (mode_src_call_entry != "")) {
                     log(" Source/Mode pressed; forward action  to specific call method");
                     /*whichActionToPerform(context, mode_src_call_option, mode_src_call_entry); */
@@ -543,14 +543,14 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
             @Override
             protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                media_call_option = sharedprefs.getString(MySettings.MEDIA_CALL_OPTION, "");
-                media_call_entry = sharedprefs.getString(MySettings.MEDIA_CALL_ENTRY, "");
-                media_call_option_second = sharedprefs.getString(MySettings.MEDIA_CALL_OPTION_SECOND, "");
-                media_call_entry_second = sharedprefs.getString(MySettings.MEDIA_CALL_ENTRY_SECOND, "");
-                media_call_option_third = sharedprefs.getString(MySettings.MEDIA_CALL_OPTION_THIRD, "");
-                media_call_entry_third = sharedprefs.getString(MySettings.MEDIA_CALL_ENTRY_THIRD, "");
-                tap_delay = Integer.parseInt(sharedprefs.getString(MySettings.PREF_TAP_DELAY, "300"));
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                media_call_option = sharedprefs.getString(MyConstants.MEDIA_CALL_OPTION, "");
+                media_call_entry = sharedprefs.getString(MyConstants.MEDIA_CALL_ENTRY, "");
+                media_call_option_second = sharedprefs.getString(MyConstants.MEDIA_CALL_OPTION_SECOND, "");
+                media_call_entry_second = sharedprefs.getString(MyConstants.MEDIA_CALL_ENTRY_SECOND, "");
+                media_call_option_third = sharedprefs.getString(MyConstants.MEDIA_CALL_OPTION_THIRD, "");
+                media_call_entry_third = sharedprefs.getString(MyConstants.MEDIA_CALL_ENTRY_THIRD, "");
+                tap_delay = Integer.parseInt(sharedprefs.getString(MyConstants.PREF_TAP_DELAY, "300"));
                 if ((media_call_option != "") && (media_call_entry != "")) {
                     log("MEDIA button pressed; forward action to specific call method");
                     /*whichActionToPerform(context, media_call_option, media_call_entry); */
@@ -568,14 +568,14 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
             @Override
             protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                eq_call_option = sharedprefs.getString(MySettings.EQ_CALL_OPTION, "");
-                eq_call_entry = sharedprefs.getString(MySettings.EQ_CALL_ENTRY, "");
-                eq_call_option_second = sharedprefs.getString(MySettings.EQ_CALL_OPTION_SECOND, "");
-                eq_call_entry_second = sharedprefs.getString(MySettings.EQ_CALL_ENTRY_SECOND, "");
-                eq_call_option_third = sharedprefs.getString(MySettings.EQ_CALL_OPTION_THIRD, "");
-                eq_call_entry_third = sharedprefs.getString(MySettings.EQ_CALL_ENTRY_THIRD, "");
-                tap_delay = Integer.parseInt(sharedprefs.getString(MySettings.PREF_TAP_DELAY, "300"));
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                eq_call_option = sharedprefs.getString(MyConstants.EQ_CALL_OPTION, "");
+                eq_call_entry = sharedprefs.getString(MyConstants.EQ_CALL_ENTRY, "");
+                eq_call_option_second = sharedprefs.getString(MyConstants.EQ_CALL_OPTION_SECOND, "");
+                eq_call_entry_second = sharedprefs.getString(MyConstants.EQ_CALL_ENTRY_SECOND, "");
+                eq_call_option_third = sharedprefs.getString(MyConstants.EQ_CALL_OPTION_THIRD, "");
+                eq_call_entry_third = sharedprefs.getString(MyConstants.EQ_CALL_ENTRY_THIRD, "");
+                tap_delay = Integer.parseInt(sharedprefs.getString(MyConstants.PREF_TAP_DELAY, "300"));
                 if ((eq_call_option != "") && (eq_call_entry != "")) {
                     log("EQ button pressed; forward action  to specific call method");
                     //whichActionToPerform(context, eq_call_option, eq_call_entry);
@@ -599,29 +599,29 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
                 int length = (int) param.args[2];
                 byte b = data[start];
 
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
 
                 //Log.d(TAG, "DVD or eject button; Executed the Media action to the launcher.sh");
                 if ((b & 255) == 1 && (data[start + 1] & 255) == 0 && (data[start + 2] & 255) == 16 && (data[start + 3] & 255) == 80) {
-                    dvd_call_option = sharedprefs.getString(MySettings.DVD_CALL_OPTION, "");
-                    dvd_call_entry = sharedprefs.getString(MySettings.DVD_CALL_ENTRY, "");
-                    dvd_call_option_second = sharedprefs.getString(MySettings.DVD_CALL_OPTION_SECOND, "");
-                    dvd_call_entry_second = sharedprefs.getString(MySettings.DVD_CALL_ENTRY_SECOND, "");
-                    dvd_call_option_third = sharedprefs.getString(MySettings.DVD_CALL_OPTION_THIRD, "");
-                    dvd_call_entry_third = sharedprefs.getString(MySettings.DVD_CALL_ENTRY_THIRD, "");
-                    tap_delay = Integer.parseInt(sharedprefs.getString(MySettings.PREF_TAP_DELAY, "300"));
+                    dvd_call_option = sharedprefs.getString(MyConstants.DVD_CALL_OPTION, "");
+                    dvd_call_entry = sharedprefs.getString(MyConstants.DVD_CALL_ENTRY, "");
+                    dvd_call_option_second = sharedprefs.getString(MyConstants.DVD_CALL_OPTION_SECOND, "");
+                    dvd_call_entry_second = sharedprefs.getString(MyConstants.DVD_CALL_ENTRY_SECOND, "");
+                    dvd_call_option_third = sharedprefs.getString(MyConstants.DVD_CALL_OPTION_THIRD, "");
+                    dvd_call_entry_third = sharedprefs.getString(MyConstants.DVD_CALL_ENTRY_THIRD, "");
+                    tap_delay = Integer.parseInt(sharedprefs.getString(MyConstants.PREF_TAP_DELAY, "300"));
                     log(" DVD button pressed; forward action to specific call method");
                     /*whichActionToPerform(context, dvd_call_option, dvd_call_entry); */
                     multitap(dvd_call_option, dvd_call_entry, dvd_call_option_second, dvd_call_entry_second, dvd_call_option_third, dvd_call_entry_third, tap_delay);
                 }
                 if ((b & 255) == 1 && (data[start + 1] & 255) == 161 && (data[start + 2] & 255) == 2 && (data[start + 3] & 255) == 91) {
-                    eject_call_option = sharedprefs.getString(MySettings.EJECT_CALL_OPTION, "");
-                    eject_call_entry = sharedprefs.getString(MySettings.EJECT_CALL_ENTRY, "");
-                    eject_call_option_second = sharedprefs.getString(MySettings.EJECT_CALL_OPTION_SECOND, "");
-                    eject_call_entry_second = sharedprefs.getString(MySettings.EJECT_CALL_ENTRY_SECOND, "");
-                    eject_call_option_third = sharedprefs.getString(MySettings.EJECT_CALL_OPTION_THIRD, "");
-                    eject_call_entry_third = sharedprefs.getString(MySettings.EJECT_CALL_ENTRY_THIRD, "");
-                    tap_delay = Integer.parseInt(sharedprefs.getString(MySettings.PREF_TAP_DELAY, "300"));
+                    eject_call_option = sharedprefs.getString(MyConstants.EJECT_CALL_OPTION, "");
+                    eject_call_entry = sharedprefs.getString(MyConstants.EJECT_CALL_ENTRY, "");
+                    eject_call_option_second = sharedprefs.getString(MyConstants.EJECT_CALL_OPTION_SECOND, "");
+                    eject_call_entry_second = sharedprefs.getString(MyConstants.EJECT_CALL_ENTRY_SECOND, "");
+                    eject_call_option_third = sharedprefs.getString(MyConstants.EJECT_CALL_OPTION_THIRD, "");
+                    eject_call_entry_third = sharedprefs.getString(MyConstants.EJECT_CALL_ENTRY_THIRD, "");
+                    tap_delay = Integer.parseInt(sharedprefs.getString(MyConstants.PREF_TAP_DELAY, "300"));
                     log(" EJECT button pressed; forward action to specific call method");
                     /* whichActionToPerform(context, eject_call_option, eject_call_entry); */
                     multitap(eject_call_option, eject_call_entry, eject_call_option_second, eject_call_entry_second, eject_call_option_third, eject_call_entry_third, tap_delay);
@@ -642,9 +642,9 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
 
                 if ((b == 16) && (c == 0)) {
                     Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                    sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                    bt_hang_call_option = sharedprefs.getString(MySettings.BT_HANG_CALL_OPTION, "");
-                    bt_hang_call_entry = sharedprefs.getString(MySettings.BT_HANG_CALL_ENTRY, "");
+                    sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                    bt_hang_call_option = sharedprefs.getString(MyConstants.BT_HANG_CALL_OPTION, "");
+                    bt_hang_call_entry = sharedprefs.getString(MyConstants.BT_HANG_CALL_ENTRY, "");
                     if ((bt_hang_call_option != "") && (bt_hang_call_entry != "")) {
                         log(" BT_Hang pressed; bt_hang_call_option: " + bt_hang_call_option + " bt_hang_call_entry : " + bt_hang_call_entry);
                         whichActionToPerform(mcontext, bt_hang_call_option, bt_hang_call_entry);
@@ -662,17 +662,17 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
             protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                 String actionName = (String) param.args[0];
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
                 log(" broadcastByIntentName in util.JumpPage beforeHooked " + actionName);
                 if (actionName == "com.glsx.boot.ACCON") {
-                    acc_on_call_option = sharedprefs.getString(MySettings.ACC_ON_CALL_OPTION, "");
-                    acc_on_call_entry = sharedprefs.getString(MySettings.ACC_ON_CALL_ENTRY, "");
+                    acc_on_call_option = sharedprefs.getString(MyConstants.ACC_ON_CALL_OPTION, "");
+                    acc_on_call_entry = sharedprefs.getString(MyConstants.ACC_ON_CALL_ENTRY, "");
                     log(" ACC_ON command received");
                     whichActionToPerform(mcontext, acc_on_call_option, acc_on_call_entry);
                 }
                 if (actionName == "com.glsx.boot.ACCOFF") {
-                    acc_off_call_option = sharedprefs.getString(MySettings.ACC_OFF_CALL_OPTION, "");
-                    acc_off_call_entry = sharedprefs.getString(MySettings.ACC_OFF_CALL_ENTRY, "");
+                    acc_off_call_option = sharedprefs.getString(MyConstants.ACC_OFF_CALL_OPTION, "");
+                    acc_off_call_entry = sharedprefs.getString(MyConstants.ACC_OFF_CALL_ENTRY, "");
                     log(TAG + " ACC_OFF command received");
                     whichActionToPerform(mcontext, acc_off_call_option, acc_off_call_entry);
                 }
@@ -684,10 +684,10 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
             @Override
             protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                home_key_capture_enabled = sharedprefs.getBoolean(MySettings.HOME_KEY_CAPTURE, false);
-                home_call_option = sharedprefs.getString(MySettings.HOME_CALL_OPTION, "");
-                home_call_entry = sharedprefs.getString(MySettings.HOME_CALL_ENTRY, "");
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                home_key_capture_enabled = sharedprefs.getBoolean(MyConstants.HOME_KEY_CAPTURE, false);
+                home_call_option = sharedprefs.getString(MyConstants.HOME_CALL_OPTION, "");
+                home_call_entry = sharedprefs.getString(MyConstants.HOME_CALL_ENTRY, "");
                 if (home_key_capture_enabled == true) {
                     log(" HOME button pressed; forward action to specific call method");
                     //executeSystemCall("am start -a android.intent.action.MAIN -c android.intent.category.HOME");
@@ -713,10 +713,10 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
             @Override
             protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                mute_key_capture_enabled = sharedprefs.getBoolean(MySettings.MUTE_KEY_CAPTURE, true);
-                mute_call_option = sharedprefs.getString(MySettings.MUTE_CALL_OPTION, "");
-                mute_call_entry = sharedprefs.getString(MySettings.MUTE_CALL_ENTRY, "");
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                mute_key_capture_enabled = sharedprefs.getBoolean(MyConstants.MUTE_KEY_CAPTURE, true);
+                mute_call_option = sharedprefs.getString(MyConstants.MUTE_CALL_OPTION, "");
+                mute_call_entry = sharedprefs.getString(MyConstants.MUTE_CALL_ENTRY, "");
                 if (mute_key_capture_enabled == true) {
                     log(" MUTE button pressed; forward action to specific call method");
                     whichActionToPerform(mcontext, mute_call_option, mute_call_entry);
@@ -737,8 +737,8 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
               @Override
               protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                disable_airhelper = sharedprefs.getBoolean(MySettings.PREF_DISABLE_AIRHELPER, true);
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                disable_airhelper = sharedprefs.getBoolean(MyConstants.PREF_DISABLE_AIRHELPER, true);
                 if (disable_airhelper == true) {
                     log(" prevent canbus airconditiong change popup");
                     param.setResult(null);
@@ -753,8 +753,8 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
               @Override
               protected void beforeHookedMethod(XC_MethodHook.MethodHookParam param) throws Throwable {
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                  disable_doorhelper = sharedprefs.getBoolean(MySettings.PREF_DISABLE_DOORHELPER, true);
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                  disable_doorhelper = sharedprefs.getBoolean(MyConstants.PREF_DISABLE_DOORHELPER, true);
                   if (disable_doorhelper == true) {
                     XposedBridge.log(TAG + " prevent canbus door open popup");
                     param.setResult(null);
@@ -773,8 +773,8 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
             @Override
             protected void afterHookedMethod(MethodHookParam param) throws Throwable {
                 Context mcontext = (Context) AndroidAppHelper.currentApplication();
-                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MySettings.SHARED_PREFS_FILENAME);
-                show_cpu_temp = sharedprefs.getBoolean(MySettings.SHOW_CPU_TEMP, false);
+                sharedprefs = new RemotePreferences(mcontext, "org.hvdw.xfyttweaker.preferences.provider", MyConstants.SHARED_PREFS_FILENAME);
+                show_cpu_temp = sharedprefs.getBoolean(MyConstants.SHOW_CPU_TEMP, false);
                 if (show_cpu_temp == true) {
                     TextView tv = (TextView) param.thisObject;
                     String text = tv.getText().toString();
@@ -809,7 +809,7 @@ public class XFytTweaker implements IXposedHookZygoteInit, IXposedHookLoadPackag
         if (callMethod.equals("sys_call")) {
             XSharedPreferences sharedPreferences = new XSharedPreferences("org.hvdw.xfyttweaker");
             sharedPreferences.makeWorldReadable();
-            use_root_access = sharedprefs.getBoolean(MySettings.USE_ROOT_ACCESS, true);
+            use_root_access = sharedprefs.getBoolean(MyConstants.USE_ROOT_ACCESS, true);
             //executeSystemCall(actionString);
             String[] cmd = actionString.split(";");
             if (use_root_access == true) {

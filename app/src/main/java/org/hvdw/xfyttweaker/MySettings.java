@@ -1,6 +1,6 @@
 package org.hvdw.xfyttweaker;
 
-class MyConstants {
+class MySettings {
 
     public static final String PACKAGE_APP = "org.hvdw.xfyttweaker";
     public static final String SHARED_PREFS_FILENAME = PACKAGE_APP + "_preferences";

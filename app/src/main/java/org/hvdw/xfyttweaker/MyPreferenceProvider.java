@@ -1,7 +1,7 @@
 package org.hvdw.xfyttweaker;
 
 import com.crossbowffs.remotepreferences.RemotePreferenceProvider;
-import org.hvdw.xfyttweaker.MyConstants;
+import org.hvdw.xfyttweaker.MySettings;
 
 public class MyPreferenceProvider extends RemotePreferenceProvider {
     public MyPreferenceProvider() {

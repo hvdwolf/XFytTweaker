@@ -3,3 +3,5 @@
 curpath=`pwd`
 
 ${curpath}/gradlew assembleDebug
+
+cp -v app/build/outputs/apk/debug/app-debug.apk XFytTweaker.apk
